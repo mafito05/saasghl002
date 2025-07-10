@@ -1,0 +1,58 @@
+# docker-compose.yml (Versión Oficial y Completa)
+services:
+  evolution_api:
+    image: atendai/evolution-api:latest
+    container_name: evolution_api
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - evolution_instances:/evolution/instances
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - evolution_network
+
+  postgres:
+    image: postgres:14
+    container_name: evolution_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      # Mapeamos al puerto 5434 para evitar conflictos con tus instalaciones locales
+      - "5434:5432"
+    volumes:
+      - evolution_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - evolution_network
+
+  redis:
+    image: redis:7
+    container_name: evolution_redis
+    restart: always
+    volumes:
+      - evolution_redis_data:/data
+    networks:
+      - evolution_network
+
+volumes:
+  evolution_instances:
+  evolution_postgres_data:
+  evolution_redis_data:
+
+networks:
+  evolution_network:
+    driver: bridge
