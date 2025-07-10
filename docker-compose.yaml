@@ -1,20 +1,19 @@
 # docker-compose.yml (Versión Oficial y Completa)
 services:
-  evolution_api:
-    image: atendai/evolution-api:latest
-    container_name: evolution_api
+  saas_backend:
+    build: . # Construye la imagen usando el Dockerfile en esta carpeta
+    container_name: saas_backend
     restart: always
     ports:
-      - "8080:8080"
+      - "8000:8000" # Expone el puerto 8000 de tu API al exterior
+    volumes:
+      # Permite a este contenedor comunicarse con el servicio de Docker del servidor
+      - /var/run/docker.sock:/var/run/docker.sock 
     env_file:
       - .env
-    volumes:
-      - evolution_instances:/evolution/instances
     depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_started
+      - postgres
+      - redis
     networks:
       - evolution_network
 

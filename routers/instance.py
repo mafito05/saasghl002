@@ -89,8 +89,8 @@ def create_instance(db: Session = Depends(get_db), current_user: User = Depends(
         return new_instance
 
     except Exception as e:
-        if container:
-            try: container.stop(); container.remove()
-            except: pass
+ #       if container:
+  #          try: container.stop(); container.remove()
+   #         except: pass
         logger.error(f"Error durante la creación de la instancia: {e}")
         raise HTTPException(status_code=500, detail=f"Error inesperado: {str(e)}")
