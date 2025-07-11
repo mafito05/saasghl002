@@ -3,20 +3,17 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Instalar dependencias del sistema
+# Instala dependencias para que Python pueda hablar con Docker
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
-
-# Instalar Docker CLI dentro de la imagen para que pueda comunicarse con el socket de Docker
 RUN curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 
-# Copiar el archivo de requerimientos e instalar las librerías de Python
+# Copia el archivo de requerimientos e instala las librerías
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar el resto del código de tu aplicación
+# Copia el resto del código
 COPY . .
 
-# Exponer el puerto que usará uvicorn
 EXPOSE 8000
 
 # Comando para iniciar la aplicación

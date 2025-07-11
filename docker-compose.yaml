@@ -1,21 +1,24 @@
-# docker-compose.yml (Versión Oficial y Completa)
 services:
   saas_backend:
-    build: . # Construye la imagen usando el Dockerfile en esta carpeta
+    build: .
     container_name: saas_backend
     restart: always
     ports:
-      - "8000:8000" # Expone el puerto 8000 de tu API al exterior
+      - "8000:8000"
     volumes:
-      # Permite a este contenedor comunicarse con el servicio de Docker del servidor
-      - /var/run/docker.sock:/var/run/docker.sock 
+      - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
+    # Permite que el contenedor se comunique con el host usando 'host.docker.internal'
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
-      - postgres
-      - redis
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
     networks:
-      - evolution_network
+      - my_saas_network
 
   postgres:
     image: postgres:14
@@ -26,7 +29,6 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
     ports:
-      # Mapeamos al puerto 5434 para evitar conflictos con tus instalaciones locales
       - "5434:5432"
     volumes:
       - evolution_postgres_data:/var/lib/postgresql/data
@@ -36,7 +38,7 @@ services:
       timeout: 5s
       retries: 5
     networks:
-      - evolution_network
+      - my_saas_network
 
   redis:
     image: redis:7
@@ -45,13 +47,15 @@ services:
     volumes:
       - evolution_redis_data:/data
     networks:
-      - evolution_network
+      - my_saas_network
 
 volumes:
-  evolution_instances:
   evolution_postgres_data:
   evolution_redis_data:
+  # Ya no necesitamos un volumen para las instancias de evolution, 
+  # la nueva API las maneja en memoria o de forma más simple.
 
 networks:
-  evolution_network:
+  my_saas_network:
+    name: my_saas_network
     driver: bridge
