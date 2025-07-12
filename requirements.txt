@@ -1,8 +1,14 @@
-fastapi[all]
+fastapi
+uvicorn[standard]
 sqlalchemy
 psycopg2-binary
 python-dotenv
-requests
 docker
-bcrypt
+requests
+passlib[bcrypt]
 python-jose[cryptography]
+pydantic[email]
+pydantic-settings
+python-multipart
+cryptography
+httpx

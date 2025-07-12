@@ -9,7 +9,7 @@ from fastapi import FastAPI
 from database.connection import Base, engine
 
 # 👇 Importamos todos los routers en una sola línea
-from routers import auth, instance, webhook 
+from routers import auth, instance, webhook, ghl_oauth
 
 # Importamos los modelos para que SQLAlchemy cree las tablas
 from models import user, instance as instance_model
@@ -28,3 +28,4 @@ def read_root():
 app.include_router(auth.router, prefix="/api")
 app.include_router(instance.router, prefix="/api")
 app.include_router(webhook.router, prefix="/api")
+app.include_router(ghl_oauth.router, prefix="/api")    

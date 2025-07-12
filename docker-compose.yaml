@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   saas_backend:
     build: .
@@ -6,54 +8,47 @@ services:
     ports:
       - "8000:8000"
     volumes:
+      # Montamos el socket de Docker para que la app pueda crear otros contenedores
       - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
-    # Permite que el contenedor se comunique con el host usando 'host.docker.internal'
+    # Permite que el contenedor se comunique con el host (necesario para el QR)
     extra_hosts:
       - "host.docker.internal:host-gateway"
     depends_on:
       postgres:
         condition: service_healthy
-      redis:
-        condition: service_started
     networks:
       - my_saas_network
 
   postgres:
     image: postgres:14
-    container_name: evolution_postgres
+    container_name: saas_postgres # Nombre más genérico
     restart: always
     environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
+      # Credenciales definidas directamente aquí.
+      # Coinciden con la DATABASE_URL en el archivo .env
+      POSTGRES_DB: saas_db
+      POSTGRES_USER: saas_user
+      POSTGRES_PASSWORD: saas_password
     ports:
+      # Mapeamos el puerto 5432 de la BD a 5434 en tu máquina
       - "5434:5432"
     volumes:
-      - evolution_postgres_data:/var/lib/postgresql/data
+      - saas_postgres_data:/var/lib/postgresql/data # Nombre de volumen más genérico
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      # La comprobación de salud ahora usa las credenciales correctas
+      test: ["CMD-SHELL", "pg_isready -U saas_user -d saas_db"]
       interval: 10s
       timeout: 5s
       retries: 5
     networks:
       - my_saas_network
 
-  redis:
-    image: redis:7
-    container_name: evolution_redis
-    restart: always
-    volumes:
-      - evolution_redis_data:/data
-    networks:
-      - my_saas_network
+  # Redis ya no es necesario para la nueva API de WAHA, lo hemos quitado.
 
 volumes:
-  evolution_postgres_data:
-  evolution_redis_data:
-  # Ya no necesitamos un volumen para las instancias de evolution, 
-  # la nueva API las maneja en memoria o de forma más simple.
+  saas_postgres_data: # Nombre de volumen más genérico
 
 networks:
   my_saas_network:

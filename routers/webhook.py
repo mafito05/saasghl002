@@ -1,101 +1,104 @@
-from fastapi import APIRouter, Request, Path, HTTPException, BackgroundTasks, Depends
-from pydantic import BaseModel, Field
-from typing import Optional
+# routers/webhook.py
+from fastapi import APIRouter, Request, Path, BackgroundTasks, Depends
 from sqlalchemy.orm import Session
+import json
 
 from logger_config import logger
 from database.connection import get_db
 from models.instance import Instance as InstanceModel
 from services import gohighlevel_service
+from schemas.webhook import WahaWebhookPayload
 
 router = APIRouter(prefix="/webhooks", tags=["Webhooks"])
 
-class MessageData(BaseModel):
-    body: str
-
-class FromData(BaseModel):
-    id: str
-    name: str
-
-class MessagePayload(BaseModel):
-    data: MessageData
-    from_data: FromData = Field(..., alias='from')
-
-class WahaWebhookPayload(BaseModel):
-    event: str
-    session: str
-    payload: MessagePayload
-
 @router.post("/waha/{instance_name}")
 async def waha_webhook_receiver(
-    payload: WahaWebhookPayload,
+    request: Request,
     instance_name: str = Path(..., description="El nombre de la instancia que recibe el webhook"),
     background_tasks: BackgroundTasks = BackgroundTasks(),
     db: Session = Depends(get_db)
 ):
-    logger.info(f"Webhook recibido para la instancia '{instance_name}' con el evento '{payload.event}'")
+    logger.info("==================== INICIO DE WEBHOOK ====================")
+    logger.info(f"Webhook recibido para la instancia '{instance_name}'")
     
-    if payload.event != 'message':
-        logger.info(f"Evento '{payload.event}' ignorado.")
+    raw_payload = await request.json()
+    logger.info(f"Payload crudo recibido:\n{json.dumps(raw_payload, indent=2)}")
+
+    try:
+        payload = WahaWebhookPayload.model_validate(raw_payload)
+    except Exception as e:
+        logger.error(f"Error al validar el payload con Pydantic: {e}")
+        return {"status": "pydantic validation error"}
+
+    # --- CORRECCIÓN FINAL ---
+    # Ignoramos eventos que no son mensajes y también los mensajes de "status@broadcast"
+    if payload.event != 'message' or (payload.payload and payload.payload.from_data and payload.payload.from_data.id == 'status@broadcast'):
+        logger.info(f"Evento '{payload.event}' o mensaje de status ignorado. No se procesará.")
         return {"status": "event ignored"}
 
-    background_tasks.add_task(
-        process_incoming_message,
-        instance_name=instance_name,
-        payload=payload,
-        db=db
-    )
-
-    return {"status": "message received and processing"}
+    background_tasks.add_task(process_incoming_message, instance_name=instance_name, payload=payload, db=db)
+    return {"status": "message received, processing in background"}
 
 async def process_incoming_message(instance_name: str, payload: WahaWebhookPayload, db: Session):
-    logger.info(f"Procesando mensaje en segundo plano para la instancia: {instance_name}")
+    logger.info("--- Iniciando procesado en segundo plano ---")
 
-    # 1. Buscar la instancia y su GHL API Key en nuestra DB
     instance = db.query(InstanceModel).filter(InstanceModel.instance_name == instance_name).first()
     if not instance:
-        logger.error(f"Se recibió un webhook para una instancia desconocida: {instance_name}")
+        logger.error(f"¡FALLO! Instancia desconocida: {instance_name}")
         return
 
-    ghl_api_key = instance.ghl_api_key
-    if not ghl_api_key:
-        logger.warning(f"La instancia '{instance_name}' no tiene una GHL API Key configurada. Ignorando mensaje.")
+    logger.info(f"Instancia '{instance.instance_name}' encontrada en la base de datos.")
+
+    access_token = instance.ghl_access_token
+    location_id = instance.ghl_location_id
+    if not all([access_token, location_id]):
+        logger.warning(f"¡FALLO! La instancia '{instance_name}' no está conectada a GHL (faltan tokens o location_id).")
+        return
+        
+    logger.info(f"Conexión a GHL encontrada para la ubicación: {location_id}")
+
+    if not payload.payload or not payload.payload.from_data or not payload.payload.data:
+        logger.error("¡FALLO! El payload no tiene la estructura esperada.")
         return
 
-    # 2. Extraer datos del payload
+    # En este punto, ya hemos filtrado los 'status@broadcast'
     phone_number = payload.payload.from_data.id.split('@')[0]
     sender_name = payload.payload.from_data.name
     message_body = payload.payload.data.body
     
-    logger.info(f"Mensaje de: {sender_name} ({phone_number})")
-    logger.info(f"Mensaje: {message_body}")
+    if not all([phone_number, sender_name, message_body]):
+        logger.error(f"¡FALLO! Faltan datos esenciales en el payload: phone='{phone_number}', name='{sender_name}', body='{message_body}'")
+        return
 
-    # 3. Buscar contacto en GoHighLevel usando la clave específica de la instancia
-    contact = await gohighlevel_service.search_contact_by_phone(phone_number, ghl_api_key)
+    logger.info(f"Datos extraídos -> De: {sender_name} ({phone_number}), Mensaje: '{message_body}'")
 
-    # 4. Si no existe, crearlo
+    contact = await gohighlevel_service.search_contact_by_phone(phone_number, access_token)
+
     if not contact:
-        logger.info(f"Creando nuevo contacto en GHL para {phone_number}")
+        logger.info("Contacto no encontrado. Creando nuevo contacto en GHL...")
         contact = await gohighlevel_service.create_contact_in_ghl(
             phone=phone_number,
             name=sender_name,
-            ghl_api_key=ghl_api_key
+            location_id=location_id,
+            access_token=access_token
         )
 
     if not contact or not contact.get("id"):
-        logger.error(f"No se pudo encontrar o crear un contacto en GHL para {phone_number}")
+        logger.error(f"¡FALLO CATASTRÓFICO! No se pudo encontrar o crear un contacto en GHL para {phone_number}.")
         return
 
     contact_id = contact["id"]
+    logger.info(f"Contacto en GHL listo. ID: {contact_id}. Añadiendo mensaje...")
 
-    # 5. Añadir el mensaje a la conversación del contacto en GHL
     success = await gohighlevel_service.add_inbound_message_to_ghl(
         contact_id=contact_id,
         message_body=message_body,
-        ghl_api_key=ghl_api_key
+        access_token=access_token
     )
 
     if success:
-        logger.info(f"Proceso de webhook completado con éxito para el contacto {contact_id}")
+        logger.info(f"¡ÉXITO TOTAL! Proceso de webhook completado para el contacto {contact_id}.")
     else:
-        logger.error(f"Falló el envío del mensaje a GHL para el contacto {contact_id}")
+        logger.error(f"¡FALLO! El envío del mensaje a GHL para el contacto {contact_id} no tuvo éxito.")
+    
+    logger.info("==================== FIN DE WEBHOOK ====================")
