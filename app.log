@@ -1,2229 +1,931 @@
-2025-07-07 15:42:45,576 - [INFO] - Iniciando el proceso de creación de instancia...
-2025-07-07 15:42:45,584 - [INFO] - Configuración preparada. Nombre: evo_instance_2_827543fd, Puerto: 64474
-2025-07-07 15:42:45,610 - [INFO] - Cliente de Docker inicializado.
-2025-07-07 15:42:45,611 - [INFO] - Intentando iniciar contenedor en la red: mi_saas_python_evolution_network
-2025-07-07 15:42:46,305 - [INFO] - Contenedor 'evo_instance_2_827543fd' (ID: 49977560213a) iniciado exitosamente.
-2025-07-07 15:42:51,306 - [INFO] - Configurando webhook en: http://localhost:64474/webhook
-2025-07-07 15:42:51,315 - [ERROR] - Error inesperado: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2025-07-07 15:46:14,639 - [INFO] - Iniciando el proceso de creación de instancia...
-2025-07-07 15:46:14,647 - [INFO] - Configuración preparada. Nombre: evo_instance_2_4679236f, Puerto: 64614
-2025-07-07 15:46:14,676 - [INFO] - Cliente de Docker inicializado.
-2025-07-07 15:46:14,677 - [INFO] - Intentando iniciar contenedor en la red: mi_saas_python_evolution_network
-2025-07-07 15:46:15,226 - [INFO] - Contenedor 'evo_instance_2_4679236f' (ID: 91c750999e36) iniciado exitosamente.
-2025-07-07 15:46:25,227 - [INFO] - Configurando webhook en: http://localhost:64614/webhook
-2025-07-07 15:46:26,180 - [INFO] - Contenedor 'evo_instance_2_4679236f' detenido y eliminado debido a un error.
-2025-07-07 15:46:26,180 - [ERROR] - Error durante la creación de la instancia: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2025-07-07 15:48:36,324 - [INFO] - Iniciando el proceso de creación de instancia con la nueva API...
-2025-07-07 15:48:36,354 - [INFO] - Cliente de Docker inicializado.
-2025-07-07 16:01:00,674 - [INFO] - Iniciando el proceso de creación de instancia...
-2025-07-07 16:01:00,680 - [INFO] - Configuración preparada. Nombre: evo_instance_2_316931a4, Puerto: 65176
-2025-07-07 16:01:00,708 - [INFO] - Cliente de Docker inicializado.
-2025-07-07 16:01:00,709 - [INFO] - Intentando iniciar contenedor en la red: mi_saas_python_evolution_network
-2025-07-07 16:01:01,238 - [INFO] - Contenedor 'evo_instance_2_316931a4' (ID: c3564a0a5b7e) iniciado exitosamente.
-2025-07-07 16:01:11,239 - [INFO] - Configurando webhook en: http://localhost:65176/webhook
-2025-07-07 16:01:12,258 - [INFO] - Contenedor 'evo_instance_2_316931a4' detenido y eliminado debido a un error.
-2025-07-07 16:01:12,258 - [ERROR] - Error durante la creación de la instancia: 404 Client Error: Not Found for url: http://localhost:65176/webhook
-2025-07-07 16:04:30,071 - [INFO] - Iniciando el proceso de creación de instancia...
-2025-07-07 16:04:30,101 - [INFO] - Cliente de Docker inicializado.
-2025-07-07 16:04:30,101 - [INFO] - Intentando iniciar contenedor en la red: mi_saas_python_evolution_network
-2025-07-07 16:04:30,872 - [INFO] - Contenedor 'evo_instance_2_7c2a36c6' (ID: e62dc88b57e6) iniciado exitosamente.
-2025-07-07 16:04:40,874 - [INFO] - Creando sesión de instancia en: http://localhost:65323/instance/create
-2025-07-07 16:04:45,004 - [ERROR] - Error durante la creación de la instancia: HTTPConnectionPool(host='localhost', port=65323): Max retries exceeded with url: /instance/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002340456F860>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
-2025-07-07 16:08:49,859 - [INFO] - Iniciando el proceso de creación de instancia...
-2025-07-07 16:08:50,342 - [INFO] - Contenedor 'evo_instance_2_9c229f83' iniciado. Esperando a que esté listo...
-2025-07-07 16:08:50,370 - [INFO] - Esperando a la instancia en http://localhost:65474...
-2025-07-07 16:08:56,386 - [INFO] - Esperando a la instancia en http://localhost:65474...
-2025-07-07 16:09:02,408 - [INFO] - Esperando a la instancia en http://localhost:65474...
-2025-07-07 16:09:08,430 - [INFO] - Esperando a la instancia en http://localhost:65474...
-2025-07-07 16:09:14,441 - [INFO] - Esperando a la instancia en http://localhost:65474...
-2025-07-07 16:09:20,456 - [INFO] - Esperando a la instancia en http://localhost:65474...
-2025-07-07 16:09:22,512 - [ERROR] - Error durante la creación de la instancia: 504: La instancia no respondió a tiempo.
-2025-07-07 16:13:37,669 - [INFO] - Iniciando el proceso de creación de instancia con la nueva API...
-2025-07-07 16:33:06,850 - [INFO] - Iniciando el proceso de creación de instancia con la nueva API...
-2025-07-07 16:38:41,151 - [INFO] - Contenedor 'wa_instance_2_f554605f' (ID: 95d5887ba633) iniciado exitosamente.
-2025-07-07 16:38:41,160 - [INFO] - Esperando a la instancia en http://localhost:54820...
-2025-07-07 16:39:13,613 - [ERROR] - Error durante la creación de la instancia: 504: La nueva instancia de API no respondió a tiempo.
-2025-07-08 11:40:12,869 - [INFO] - Iniciando el proceso de creación de instancia con la nueva API...
-2025-07-08 11:40:13,546 - [INFO] - Contenedor 'wa_instance_2_68dc7f57' (ID: 6179fff78405) iniciado exitosamente.
-2025-07-08 11:40:13,575 - [INFO] - Esperando a la instancia en http://localhost:64165...
-2025-07-08 11:40:15,594 - [INFO] - Esperando a la instancia en http://localhost:64165...
-2025-07-08 11:40:17,620 - [INFO] - Esperando a la instancia en http://localhost:64165...
-2025-07-08 11:40:19,634 - [INFO] - Esperando a la instancia en http://localhost:64165...
-2025-07-08 11:40:44,588 - [ERROR] - Error durante la creación de la instancia: 504: La nueva instancia de API no respondió a tiempo.
-2025-07-08 11:58:19,911 - [INFO] - Iniciando el proceso de creación de instancia...
-2025-07-08 11:58:20,445 - [INFO] - Contenedor 'evo_instance_2_e04bc592' iniciado. Esperando a que esté listo...
-2025-07-08 11:58:20,464 - [INFO] - Esperando a la instancia en http://localhost:65127...
-2025-07-08 11:58:26,499 - [INFO] - Esperando a la instancia en http://localhost:65127...
-2025-07-08 11:58:32,506 - [INFO] - Esperando a la instancia en http://localhost:65127...
-2025-07-08 11:58:38,533 - [INFO] - Esperando a la instancia en http://localhost:65127...
-2025-07-08 11:58:44,561 - [INFO] - Esperando a la instancia en http://localhost:65127...
-2025-07-08 11:58:50,586 - [INFO] - Esperando a la instancia en http://localhost:65127...
-2025-07-08 11:58:52,615 - [INFO] - Contenedor 'evo_instance_2_e04bc592' detenido y eliminado debido a un error.
-2025-07-08 11:58:52,616 - [ERROR] - Error durante la creación de la instancia: La instancia no respondió a tiempo en http://localhost:65127
-2025-07-08 12:01:08,307 - [INFO] - Iniciando el proceso de creación de instancia con la API estable...
-2025-07-08 12:01:08,798 - [INFO] - Contenedor 'wa_instance_2_0a4eee29' (ID: 988cac98648e) iniciado exitosamente.
-2025-07-08 12:01:08,825 - [INFO] - Esperando a la instancia en http://localhost:65198...
-2025-07-08 12:01:10,832 - [INFO] - Esperando a la instancia en http://localhost:65198...
-2025-07-08 12:01:12,856 - [INFO] - Esperando a la instancia en http://localhost:65198...
-2025-07-08 12:01:40,249 - [ERROR] - Error durante la creación de la instancia: La nueva instancia de API no respondió a tiempo en http://localhost:65198
-2025-07-08 12:11:55,287 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:11:55,288 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51961001307@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:11:55.272Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:11:55,585 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:11:55,585 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51961001307@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:11:55.573Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:11:55,593 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:11:55,594 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600yh56whw4lncj8s",
-      "name": "Sebastian Mafaldo"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:11:55.582Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:11:55,730 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:11:55,731 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51961001307@s.whatsapp.net",
-      "fromMe": true,
-      "id": "3EB09CEDE9FC3A13551D85"
-    },
-    "pushName": "Sebastian Mafaldo",
-    "status": "SERVER_ACK",
-    "message": {
-      "conversation": "esta es una prueba"
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994716,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:11:55.721Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:11:55,936 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:11:55,937 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51961001307@s.whatsapp.net",
-    "pushName": "",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/482219011_1914253419111667_8515586189026286248_n.jpg?ccb=11-4&oh=01_Q5Aa1wHunZEMNajBH-QoYjiQGt8QM-XunBbhnpmLU3TJEEsNfg&oe=687A6FE6&_nc_sid=5e03e0&_nc_cat=105",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:11:55.927Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:26,450 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:26,451 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcuse4fb00a1nr6oiayfmpwc",
-    "keyId": "3EB0FCF29CACD54BD35802",
-    "remoteJid": "51943321378:16@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378:16@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:26.438Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:26,476 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:26,477 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcuse269009tnr6obubglqw0",
-    "keyId": "3EB02906E950B3790AEB4B",
-    "remoteJid": "51943321378:16@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378:16@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:26.468Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:36,961 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:36,961 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:36.945Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:36,971 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:36,971 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600yy56whv2rhad20",
-      "name": "Manuel Vasquez"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:36.955Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:37,065 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:37,066 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": false,
-      "id": "3EB0C8E25F420E73198BE1"
-    },
-    "pushName": "Manuel Vasquez",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "messageContextInfo": {
-        "deviceListMetadata": {
-          "senderKeyHash": "HErwcK0gyDY4DQ==",
-          "senderTimestamp": "1751983165",
-          "senderAccountType": "E2EE",
-          "receiverAccountType": "E2EE",
-          "recipientKeyHash": "duaOY3Eq4KR2xQ==",
-          "recipientTimestamp": "1751733149"
-        },
-        "deviceListMetadataVersion": 2,
-        "messageSecret": "KYjxFxcm4qUYiPXfnezlWluabRfB5RFiuXvb0CIlNgQ="
-      },
-      "conversation": "Pero te da dinero"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": true
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994757,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:37.057Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:37,086 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:37,087 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:37.078Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:37,255 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:37,255 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "Manuel Vasquez",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:37.248Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:40,805 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:40,806 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:40.797Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:40,878 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:40,878 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": false,
-      "id": "3EB0B98A6E4EB780941F33"
-    },
-    "pushName": "Manuel Vasquez",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "messageContextInfo": {
-        "deviceListMetadata": {
-          "senderKeyHash": "HErwcK0gyDY4DQ==",
-          "senderTimestamp": "1751983165",
-          "senderAccountType": "E2EE",
-          "receiverAccountType": "E2EE",
-          "recipientKeyHash": "duaOY3Eq4KR2xQ==",
-          "recipientTimestamp": "1751733149"
-        },
-        "deviceListMetadataVersion": 2,
-        "messageSecret": "ZGeoVfuZ5SbazaPz9FfWO2ASDTfhCHC4Ek2nEwuL+zQ="
-      },
-      "conversation": "Puedes ignorar eso"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": true
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994761,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:40.871Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:40,933 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:40,934 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:40.927Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:41,056 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:41,057 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "Manuel Vasquez",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:41.050Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:45,087 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:45,088 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:45.077Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:45,171 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:45,171 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": false,
-      "id": "3EB0C8AD1EA065DDF9F96E"
-    },
-    "pushName": "Manuel Vasquez",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "messageContextInfo": {
-        "deviceListMetadata": {
-          "senderKeyHash": "HErwcK0gyDY4DQ==",
-          "senderTimestamp": "1751983165",
-          "senderAccountType": "E2EE",
-          "receiverAccountType": "E2EE",
-          "recipientKeyHash": "duaOY3Eq4KR2xQ==",
-          "recipientTimestamp": "1751733149"
-        },
-        "deviceListMetadataVersion": 2,
-        "messageSecret": "O4wWm5nTSACEcUGuABwSJsWo4JIbrefbHvS2zqdey9E="
-      },
-      "conversation": "Por un bien mayor"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": true
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994765,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:45.163Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:45,222 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:45,222 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:45.217Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:45,357 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:45,358 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "Manuel Vasquez",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:45.351Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:50,886 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:50,887 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:50.870Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:50,893 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:50,893 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600y856whtg3amd4a",
-      "name": "Janeth \u2728"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:50.879Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:50,971 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:50,972 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "28C650D6EC1836B1AA876C4CB003AD26",
-      "participant": "51933310218@s.whatsapp.net"
-    },
-    "pushName": "Janeth \u2728",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "senderKeyDistributionMessage": {
-        "groupId": "51937517309-1468284996@g.us",
-        "axolotlSenderKeyDistributionMessage": "Mwia866wBxAAGiDwSY63JUt/esOeUF5ft1ZCZ1O2GKsAD9yHlPoB3Fe1tyIhBdtMRKk9i6SoSBLE6EO2Co/pxrUVGQppXDUknrFOEqk2"
-      },
-      "messageContextInfo": {
-        "messageSecret": "hp1jcF3/zHSLk/p14OOcTe4MMBSV2DtyFnRJMxl4Ho0="
-      },
-      "stickerMessage": {
-        "url": "https://mmg.whatsapp.net/v/t62.15575-24/18984492_2498695083810987_409475692454646230_n.enc?ccb=11-4&oh=01_Q5Aa1wEnF_bgA57SubZvYu7pz9Lqcs2jPURWjDChBEKF5JukYA&oe=6894A810&_nc_sid=5e03e0&mms3=true",
-        "fileSha256": "cOGu3GdQCIAGjWmf8ttk2vqQT8Hgvr4q7Wqk4S7ZxIc=",
-        "fileEncSha256": "e1Z1ZKMKr2yZbH+l6DsDK8XeR3lfxvoDoHxihn9c9ik=",
-        "mediaKey": "X5gWwIPMvaN53KIvE8//ypFbXXG9JFJRr8+x72CXLsY=",
-        "mimetype": "image/webp",
-        "height": 64,
-        "width": 64,
-        "directPath": "/v/t62.15575-24/18984492_2498695083810987_409475692454646230_n.enc?ccb=11-4&oh=01_Q5Aa1wEnF_bgA57SubZvYu7pz9Lqcs2jPURWjDChBEKF5JukYA&oe=6894A810&_nc_sid=5e03e0",
-        "fileLength": "62728",
-        "mediaKeyTimestamp": "1751902351",
-        "isAnimated": false,
-        "contextInfo": {
-          "stanzaId": "248705C2361A8200073953C42AB6CFD4",
-          "participant": "51964434578@s.whatsapp.net",
-          "quotedMessage": {
-            "conversation": "No s\u00e9, pero tu me pareces conocida XD"
-          }
-        },
-        "stickerSentTs": "1751994761574",
-        "isAvatar": false,
-        "isAiSticker": false,
-        "isLottie": false
-      }
-    },
-    "contextInfo": {
-      "stanzaId": "248705C2361A8200073953C42AB6CFD4",
-      "participant": "51964434578@s.whatsapp.net",
-      "quotedMessage": {
-        "conversation": "No s\u00e9, pero tu me pareces conocida XD"
-      }
-    },
-    "messageType": "stickerMessage",
-    "messageTimestamp": 1751994770,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:50.964Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:51,012 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:51,012 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51933310218@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491871489_1282400386736380_3025000160374926289_n.jpg?ccb=11-4&oh=01_Q5Aa1wE2FeJMIoOIAAshPVZfz19Q_9K58jGY50_rki3Es44IIQ&oe=687A7EB7&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:51.006Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:12:51,232 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:12:51,233 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "Janeth \u2728",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:12:51.226Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:06,940 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:06,941 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "120363386532143588@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:06.929Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:06,951 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:06,952 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600ye56whxwwelhdh",
-      "name": "Jorge Sanchez Alvites"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:06.944Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:07,037 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:07,038 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "120363386532143588@g.us",
-      "fromMe": false,
-      "id": "371061A81C313E371026600137C3CA5E",
-      "participant": "97891565732079@lid"
-    },
-    "pushName": "Jorge Sanchez Alvites",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "senderKeyDistributionMessage": {
-        "groupId": "120363386532143588@g.us",
-        "axolotlSenderKeyDistributionMessage": "Mwix/IqGAhARGiCjjqcS4+wam+VoppAwYu0mgSc3xPR5iOr71LrGWaIPeCIhBV20je8Lz/G/9RQLKQNNKWGH3wpLV4ARMczIoWzSOPRC"
-      },
-      "messageContextInfo": {
-        "messageSecret": "i7iFh2Lvtkp+qZ6ut8i4gdHS4k8/pMdOAB2Ix3bCotQ="
-      },
-      "conversation": "El Poder Judicial dict\u00f3 nueve meses de prisi\u00f3n preventiva contra Miguel \u00c1ngel Requejo, protagonista de un violento ataque ocurrido la noche del mi\u00e9rcoles 2 de julio en el restaurante \u201cEl Charr\u00faa\u201d, en La Molina. Nuevas im\u00e1genes de c\u00e1maras de seguridad revelan paso a paso c\u00f3mo el sujeto, tras ser retirado del local por causar disturbios, volvi\u00f3 minutos despu\u00e9s con su camioneta para embestir a quienes minutos antes se enfrentaron con \u00e9l.\n\nTodo comenz\u00f3 cuando el personal del restaurante se neg\u00f3 a venderle m\u00e1s alcohol, lo que provoc\u00f3 la furia de Requejo. Tras ser criticado por otros comensales, protagoniz\u00f3 una gresca que incluy\u00f3 golpes y empujones. Las c\u00e1maras exteriores muestran c\u00f3mo, tras el altercado, se retira escoltado por familiares, pero minutos despu\u00e9s intenta regresar violentamente al local, incluso agrediendo a quienes trataban de detenerlo.\n\nRequejo Astochado vive a pocos metros del restaurante. Doce minutos despu\u00e9s del primer enfrentamiento, regres\u00f3 al lugar conduciendo su camioneta de alta gama, con ropa distinta, lo que para la Fiscal\u00eda evidencia una posible premeditaci\u00f3n. Ingres\u00f3 nuevamente al restaurante, amenaz\u00f3 a los presentes y golpe\u00f3 otra vez a familiares. Segundos despu\u00e9s intent\u00f3 embestir con el veh\u00edculo a varios de los comensales.\n\nPIDI\u00d3 PERD\u00d3N ENTRE L\u00c1GRIMAS\n\nFue detenido en flagrancia, y durante la audiencia pidi\u00f3 perd\u00f3n entre l\u00e1grimas, alegando que estaba ebrio. Sin embargo, el juez consider\u00f3 que exist\u00edan elementos suficientes para dictar prisi\u00f3n preventiva. Actualmente, Requejo permanece recluido en la carceleta del penal Anc\u00f3n II, a la espera de su traslado definitivo a un centro penitenciario"
-    },
-    "contextInfo": {
-      "forwardingScore": 1,
-      "isForwarded": true,
-      "expiration": 86400,
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "UNKNOWN"
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994787,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:07.031Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:07,086 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:07,086 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "97891565732079@lid",
-      "profilePicUrl": null,
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:07.080Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:07,268 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:07,269 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "120363386532143588@g.us",
-    "pushName": "Jorge Sanchez Alvites",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/472915135_3895283870716186_8978600780727736922_n.jpg?ccb=11-4&oh=01_Q5Aa1wEjHVLdhGcF9ERGJ3uEybcSqp6rNppDNufysnxSfPEi3Q&oe=687A57D9&_nc_sid=5e03e0&_nc_cat=104",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:07.264Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:09,894 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:09,895 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "120363386532143588@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:09.888Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:09,979 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:09,979 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "120363386532143588@g.us",
-      "fromMe": false,
-      "id": "975D604C5435C34E8DB58F8D3CC0F59D",
-      "participant": "97891565732079@lid"
-    },
-    "pushName": "Jorge Sanchez Alvites",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "videoMessage": {
-        "url": "https://mmg.whatsapp.net/v/t62.7161-24/11926361_1069100178070726_7138350274798591900_n.enc?ccb=11-4&oh=01_Q5Aa1wH_8b5QGKEdhbeHAjAxsVZ8O5JW-heJQEBFmejP4xQZtQ&oe=6894A7BF&_nc_sid=5e03e0&mms3=true",
-        "mimetype": "video/mp4",
-        "fileSha256": "VJwACscCyZ7LIL/iznxoynH9SuzCvt9qc7I0Ni0l3iE=",
-        "fileLength": "13242037",
-        "seconds": 183,
-        "mediaKey": "JEHnsCePNxn8c45i6c+2AMjqQjn7FTuAoU9OnDOADhY=",
-        "height": 360,
-        "width": 640,
-        "fileEncSha256": "CQfy+5V/TkuH+SJMsSlUd9Ma6yyg3wMdjvmuGmG0qLI=",
-        "directPath": "/v/t62.7161-24/11926361_1069100178070726_7138350274798591900_n.enc?ccb=11-4&oh=01_Q5Aa1wH_8b5QGKEdhbeHAjAxsVZ8O5JW-heJQEBFmejP4xQZtQ&oe=6894A7BF&_nc_sid=5e03e0&_nc_hot=1751994748",
-        "mediaKeyTimestamp": "1751994168",
-        "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIACkASAMBIgACEQEDEQH/xAAuAAACAwEBAAAAAAAAAAAAAAAAAwIEBQYBAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAKBuMOcOp9OVNi4c3Ho41lkBHWaq5b0Kb9SxnePijaXXNMqEsVrLJTUSyksPWK9pgsj/xAAlEAACAwACAgEDBQAAAAAAAAABAgADEQQhEhRTIjEyBRMwM0L/2gAIAQEAAT8ASt33yBAj8fBo2evd8bT17/jaetf8bT17/jaevd8bRqLR21ZllFH7ClB3ncTwWtSxyMqlCRAdVZ5oOiw2Vcl/ZcM30w8vjjfrnt0b/YJddU9LY47ELFVZd6yPyA4VV/yO5xeQHqZD+QnI/UFqIRUldxu2wgDehDi953OQgrfzJ6aVlWIXx3TDdWlbU+GMWl1AALDPxldIDFusIhqat2cNPBLCWI7moiCNyn8iIK05GMxjVJU+qx0RtL+W6dhvbxILHYWbMDQlvsXgZh9jPrYbs8TAXAOGEk/cytlU6wlmMxI/i//EABkRAAMBAQEAAAAAAAAAAAAAAAABERAgIf/aAAgBAgEBPwDUXITJwnPRus//xAAXEQEAAwAAAAAAAAAAAAAAAAARECAw/9oACAEDAQE/AKEOP//Z",
-        "contextInfo": {
-          "forwardingScore": 1,
-          "isForwarded": true,
-          "expiration": 86400,
-          "disappearingMode": {
-            "initiator": "CHANGED_IN_CHAT",
-            "trigger": "UNKNOWN"
-          }
-        },
-        "streamingSidecar": "FhaGtZVBDvghqxipWW6U27+ws5kKDozGuL5+RiG8LaZtGYhm3rqW/4d25KQBbacUS4H7/dQO57W6qtmLzBsh5Cmob5aIY3QINyDvaEvuCWpZ6wqrTDI2SR9ZMDXEn16zgVMfxeMiJRatbYr+b9OpO1LBaqpwC03HjRRXLP/+Bj52tYciPASIhzvBSx7mwopoSpZRHBVvPfSxI4AMQtpvSgT5Gyypnr4o/sZNWH3/zR/rEcJ8VHoFgAQROn5/8fmbLLI/0TuAzyuWcSzch/wO5QVyDiP9oG+3eXVoE0FN9HcZyK5DXg9SqINtDKxUg4W72jXsZt2LJStkhrKR0gRPlyLRPj7C+hyvZ1cz1uFQjJ70+8Yb7DdJFuVLokZBarjQZ27StGT0sigNZJ4ZW6goSUiW3iqg/I8tqGCci+TdVjFZDdFEU7yN4tlrYDjVwfp58SE0a4Uj7cAvcV9MIcrZIie6vHU1Oc+pmYwLZBYKmO2vVvckIprGjbekMoJk9lEwcVNKAw9D5B5XiIuFx4yUVmeBWJR2TpqT0cXhfrW1hw/PdjvfeSGENsOvFi/ix8Ah7VidUjYCjXtVdGg1yK04WbIpw92CUWOGDMxIK/jBhAD3kXXLtiAmYkZLn3+xGpqoW+xvgJQKx7aTmcz1Lok8aCIe6xQXT4t/P/tP0r9Mw/iWI08MuDMWTMfPkzbxE/6b9bcZ39AAH6EIt7LVU+zOZmE3+kyn5tRiPVCm/9qUc5IafVC0Vug4I9v2Jr6Jh0r6PV58EJQiVsRrsQ3jyNFcjJ2vaX5z4QZ9YL1Gv8pwnTxrNQ2e9hUOu7zE91+ejdml20lcFuXw/Y6Vz3X29L0ND1LUdZm7D0D3RzGn1YT/+x6GVQkAbURcf8GNjPbvLb1rXFBDFtcOOlV/+DArzwGLY8IC7eml4Ea+BZujliTW2brOPSdKotMdDsjLrf22iFI9yETUV3tbAjOSg7DVM2whpBbayEyOryhyaftKLkWsartdtXRgC5ecu56fu+wFavQk3IxNf1J+LkCkys1PZjFnida3UqQIK833WLFqW+6imfBw5/6e7syG+vQEkb2ue6Tvu1TXPXHiyTkZAiHS3zNNuuLobOYTTWdqnEW5j70r6jKUsTzw3VR3iAYHpbIt2Hhco8qrIv06RnT722eyrPPQ8xtJyNOwRB1Zc5331GwgL5RdF8s8PXcSxMD75GP/xUInz4G0hojJjyMIq9iZAzIBhlJvpMJYnHHbST57MY4p4ht2Emo6dT8CafklnT88bu5/wkdzJ9N1e8CktHuyHI4O+A2GePfgdUsmsdvFADgY/UAIlAwjKaQcv2Zppam79Lx4nl63itv5GjWtF94MfhbpMNzjysq6u44HNi/SpbGRb5NEbU7Axkug8JKJyKbZbCk9tUoOPdSrnHc7nOUyrq2MXsITcn/CRLgX6UPm7ZdNERHma0KOsl88aP01dAr333wOwJLvxfHKx/9D8MqIt1NrUbL2+nbtgF39Ae7pvdUF/vSiAxc65+sgi+Q6O+Jmyp8hMEYqJJr0a32+GrHqq09AT+m4X7PwfZG/ZlB4ZYh0NDdfGF/rvNNnHd2LpQGBfh2DS17sR6+4hjJHa6fEtnOfVWOsW9vE+M3tDpV73HQhSUIiiurNKQvrtN9ocsJRSfugiqF6qmHLwX/mUmgLshxfIS5O+iAO3PNvD0cV5gHpi2+JyGcd7w1/rUvkFfPiRYtNXfsqdlTtOGaXjT8bw7Ef9nGoDJq+M8XQ3IjkSqlHGGPFlk5m2iVxLw+7U1LE1yW5i6bUNbwUnOcR6VvOYki/PZWlU88XZ+l+XuUZyvYUEOkc/M3eLDGMc5YRH1KwP+8DUtYVDvOApcm6IKnHfAoWnrMMRW+0eALjw/NFaXN2xXl7NRVE2jFbvjK3KhWdxoSrbomFWSCkCLpqdUEFulYXqHQlXHcYTarj4OU40g1inszm6qQWmsTWjR3HHU2Cusx0QuMn208s61a0A/SVNQ76K3pM/dcRXtsrKyMeEe1hD3jG5DVDGjqws1I6yj530yz3Qt/+vz21nn3hM6PUgnA6Oc2r66e8JpRMnDbNh+rQvmD8VaaHQ/m5BDhySx5lgxkYegiXp+OPbTVm3hNLM/b4A35lLFt2w3B/W2wfYwsQSSa2jvCKmEUpq5Yf/A6FqoCY2WPtcfnUYjWoDUdlPPjs8mbqTr3WEyAs+d40vx9JharGR8hX7+zlhgwkWgIiSRPnRVcMbfDRqZ8Jv/gHXzoOn4gOFK2GbIlA5IJ+CnpnWDZVKGcN45cTmkXvI2WWcDVh3wVGiLI6Il6QsiYpyswKvJwYkXIjjbOtLUqppU20rQuP0Feaccf30xIvv9bijojLRVOtS8MadiVYxP3VjpSuGZk9HLubCsZkAAC8OYR3CsMX0kvOFYrLqQBZ0i+B9/v5zKxwe5vwX+Cedp5Ejrs7iFfOsdbeaMimFBNjNofu3SyQ+LVnQdkV9w23Had/woY+ugoOLy0DL0TNMsjNQTTqT4d7fTgy1VYANk3sck4SUD06OhKJ5D4xxQf+aYs8xoeHCMp552l94YjlgHITE3bzkWpHxQokXr951tq1xVUsc3kV9cbxn+/RlN6H4UjdGBNtslEgxbPd5+bdRdN4cMyXvVMxBK41QuXt7ipTZWKTMI6M4mRKKUo54Ovjt1QRp4I+TaJ8JkbxVwgHWdtqyBo="
-      },
-      "messageContextInfo": {
-        "messageSecret": "XjCYfVcXC9R94NE5hi+rNUxtBAxDNOb/LJGtzsyjGk8="
-      }
-    },
-    "contextInfo": {
-      "forwardingScore": 1,
-      "isForwarded": true,
-      "expiration": 86400,
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "UNKNOWN"
-      }
-    },
-    "messageType": "videoMessage",
-    "messageTimestamp": 1751994790,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:09.972Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:10,041 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:10,041 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "97891565732079@lid",
-      "profilePicUrl": null,
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:10.035Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:10,261 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:10,262 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "120363386532143588@g.us",
-    "pushName": "Jorge Sanchez Alvites",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/472915135_3895283870716186_8978600780727736922_n.jpg?ccb=11-4&oh=01_Q5Aa1wEjHVLdhGcF9ERGJ3uEybcSqp6rNppDNufysnxSfPEi3Q&oe=687A57D9&_nc_sid=5e03e0&_nc_cat=104",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:10.252Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:29,003 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:29,004 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:28.990Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:29,011 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:29,011 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600y856whtg3amd4a",
-      "name": "Juls \u2728\u2652"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:29.000Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:29,091 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:29,091 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "CA672D476550291E1EBBA37E4D8D5B52",
-      "participant": "51966783305@s.whatsapp.net"
-    },
-    "pushName": "Juls \u2728\u2652",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "senderKeyDistributionMessage": {
-        "groupId": "51937517309-1468284996@g.us",
-        "axolotlSenderKeyDistributionMessage": "Mwi1r95kEAAaIHzZ/GWeCYifkibk4EWTRFcw7U6DAZXNaMjFtWuXop1oIiEFfkq8cqUZijWjKE9jFZMG8/6N2eC+ulmNN/n3ke6whBI="
-      },
-      "messageContextInfo": {
-        "messageSecret": "bjcyQrpuygqbdF5MQx65BTN69yQ3UbFvpnM14z7kJpI="
-      },
-      "imageMessage": {
-        "url": "https://mmg.whatsapp.net/o1/v/t24/f2/m239/AQP4dnB3HKskvIC3a00GKSN9583OBCPQ-V7FxGa9p3Kv7W-LCXO6y_L5FHXFzPbjURVkJaG9-LQRSlvvYg2yXScVftTWBEXy4KTEzqts9Q?ccb=9-4&oh=01_Q5Aa1wFWhjZZVpzz0PyW5_W8Skv_Z4QvadgxxdYuooW_mGrCzw&oe=6894D276&_nc_sid=e6ed6c&mms3=true",
-        "mimetype": "image/jpeg",
-        "fileSha256": "FCm7Sj0lDMMMqPh03xvpWAzosk42gXrvnf//k2L/6Rw=",
-        "fileLength": "172223",
-        "height": 2048,
-        "width": 1426,
-        "mediaKey": "hQuvX7gAoSUjcMpHsj2li7sAdgzvB1+WXuvS9KgARrM=",
-        "fileEncSha256": "Br8nYOtzMS/Ojth/X4tAUA76DjGqoWqyUlUzd62cWXo=",
-        "directPath": "/o1/v/t24/f2/m239/AQP4dnB3HKskvIC3a00GKSN9583OBCPQ-V7FxGa9p3Kv7W-LCXO6y_L5FHXFzPbjURVkJaG9-LQRSlvvYg2yXScVftTWBEXy4KTEzqts9Q?ccb=9-4&oh=01_Q5Aa1wFWhjZZVpzz0PyW5_W8Skv_Z4QvadgxxdYuooW_mGrCzw&oe=6894D276&_nc_sid=e6ed6c",
-        "mediaKeyTimestamp": "1751994797",
-        "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEAALAMBIgACEQEDEQH/xAAuAAADAQEBAAAAAAAAAAAAAAABAgMEAAUBAQEBAQAAAAAAAAAAAAAAAAIBAwD/2gAMAwEAAhADEAAAAMnc2mypoWKAfR3RKLTsrN6lgKFzKm55TnvDptAtt1o2edUzA2o7pf/EACQQAQACAgEDBAMBAAAAAAAAAAEAAgMRMQQSIRATMjMUICJB/9oACAEBAAE/APRP0JVB8xxl7brL4r0NpA7kI48Z49a1KG15nuu9WP5lqUrctwSzVVLRFYb4hU1UXiZfjoIre2oVw08QtpnNtrM2fIZWozHmuWlHVhYlbK6gQ8TL9tlmCmy1t8Q1/sbb4gO4mplEvtnT+VrGj2M32gJO/Lr6pfPbf1zqLmUqldSq0tW1az8uqfCV6qtjftz/xAAcEQACAgIDAAAAAAAAAAAAAAAAAQIRIVEQIEH/2gAIAQIBAT8A6UpLAovlMpbPTGz/xAAcEQACAgMBAQAAAAAAAAAAAAAAAQIhEBIxEWH/2gAIAQMBAT8AHFojFy5hSnt9G/K5hN7UNt2yjjKP/9k=",
-        "contextInfo": {},
-        "scansSidecar": "057kwHWjt8dX7FoGONMkzjFCuoI=",
-        "scanLengths": [
-          39000,
-          133223
-        ]
-      }
-    },
-    "contextInfo": {},
-    "messageType": "imageMessage",
-    "messageTimestamp": 1751994808,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:29.082Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:29,228 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:29,228 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51966783305@s.whatsapp.net",
-      "profilePicUrl": null,
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:29.222Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:29,509 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:29,510 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "Juls \u2728\u2652",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:29.501Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:43,911 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:43,912 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:43.903Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:43,917 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:43,918 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600y856whtg3amd4a",
-      "name": "Mady \ud83c\udf37"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:43.908Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:43,975 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:43,975 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "4D09240B6A4474181516C38C03727C2D",
-      "participant": "51928904425@s.whatsapp.net"
-    },
-    "pushName": "Mady \ud83c\udf37",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "senderKeyDistributionMessage": {
-        "groupId": "51937517309-1468284996@g.us",
-        "axolotlSenderKeyDistributionMessage": "Mwio9OeABxAAGiA/HadO9ZfdxPeKlfuA/7NVPUAV1EiWtaJ+X1nNtj+SbiIhBbtbS78jmfBBUbd/Idi37kVaA7r9VyQqIfDaCGs8O15+"
-      },
-      "messageContextInfo": {
-        "messageSecret": "aFEok69JLbSRQNRw+KNrGPIvdwsqKMsQ/zVkh3oLv4k="
-      },
-      "stickerMessage": {
-        "url": "https://mmg.whatsapp.net/v/t62.15575-24/11853729_4183420358596616_4220494075580728656_n.enc?ccb=11-4&oh=01_Q5Aa1wHjmtyUwdHAxqn6p5kBbJUzCG8yl4Tvf00yoD628Emc6A&oe=6894BB27&_nc_sid=5e03e0&mms3=true",
-        "fileSha256": "C3hjniNEQiLzE3b0tSxukeIh7cX2hSKYeSBnprEg/I0=",
-        "fileEncSha256": "+QAWvvyeuD1ao92E3BkTxAXe00gwzgeyMpC9U+KP27c=",
-        "mediaKey": "o+DwcbK2lpubpjHgAhCfUFnsufCsL08VEbOTiI6ZqUo=",
-        "mimetype": "image/webp",
-        "height": 64,
-        "width": 64,
-        "directPath": "/v/t62.15575-24/11853729_4183420358596616_4220494075580728656_n.enc?ccb=11-4&oh=01_Q5Aa1wHjmtyUwdHAxqn6p5kBbJUzCG8yl4Tvf00yoD628Emc6A&oe=6894BB27&_nc_sid=5e03e0",
-        "fileLength": "482884",
-        "mediaKeyTimestamp": "1751994810",
-        "firstFrameLength": 482512,
-        "firstFrameSidecar": "iuLFDUrJPlZ3UQ==",
-        "isAnimated": true,
-        "contextInfo": {
-          "stanzaId": "1C76D8EC50D5DA732BB1AE0BE5B9B40C",
-          "participant": "51906611810@s.whatsapp.net",
-          "quotedMessage": {
-            "conversation": "Se k kieres yo tmbn"
-          }
-        },
-        "stickerSentTs": "1751994810827",
-        "isAvatar": false,
-        "isAiSticker": false,
-        "isLottie": false
-      }
-    },
-    "contextInfo": {
-      "stanzaId": "1C76D8EC50D5DA732BB1AE0BE5B9B40C",
-      "participant": "51906611810@s.whatsapp.net",
-      "quotedMessage": {
-        "conversation": "Se k kieres yo tmbn"
-      }
-    },
-    "messageType": "stickerMessage",
-    "messageTimestamp": 1751994824,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:43.969Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:44,054 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:44,054 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51928904425@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/208293664_1013124836160199_2631916416722423018_n.jpg?ccb=11-4&oh=01_Q5Aa1wFmOF0Lmmhjqiu_f9YQJfLzu6df9mCZs4fWORQeMG5_2Q&oe=687A5BDE&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:44.047Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:44,227 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:44,228 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "Mady \ud83c\udf37",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:44.222Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:46,507 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:46,507 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "95732AC780F4FD851F4D8BFF1A0E5984",
-      "participant": "51928904425@s.whatsapp.net"
-    },
-    "pushName": "Mady \ud83c\udf37",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "reactionMessage": {
-        "key": {
-          "remoteJid": "51937517309-1468284996@g.us",
-          "fromMe": false,
-          "id": "CA672D476550291E1EBBA37E4D8D5B52",
-          "participant": "51966783305@s.whatsapp.net"
-        },
-        "text": "\ud83d\ude02",
-        "senderTimestampMs": "1751994824494"
-      }
-    },
-    "messageType": "reactionMessage",
-    "messageTimestamp": 1751994826,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:46.500Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:46,573 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:46,574 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51928904425@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/208293664_1013124836160199_2631916416722423018_n.jpg?ccb=11-4&oh=01_Q5Aa1wFmOF0Lmmhjqiu_f9YQJfLzu6df9mCZs4fWORQeMG5_2Q&oe=687A5BDE&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:46.567Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:46,752 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:46,752 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "Mady \ud83c\udf37",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:46.747Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:50,973 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:50,973 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "ADE22F549932BC34E2EFD4BAD6A3F1E5",
-      "participant": "51928904425@s.whatsapp.net"
-    },
-    "pushName": "Mady \ud83c\udf37",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "reactionMessage": {
-        "key": {
-          "remoteJid": "51937517309-1468284996@g.us",
-          "fromMe": false,
-          "id": "CA672D476550291E1EBBA37E4D8D5B52",
-          "participant": "51966783305@s.whatsapp.net"
-        },
-        "text": "\ud83d\udd25",
-        "senderTimestampMs": "1751994829712"
-      }
-    },
-    "messageType": "reactionMessage",
-    "messageTimestamp": 1751994831,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:50.965Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:51,033 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:51,033 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51928904425@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/208293664_1013124836160199_2631916416722423018_n.jpg?ccb=11-4&oh=01_Q5Aa1wFmOF0Lmmhjqiu_f9YQJfLzu6df9mCZs4fWORQeMG5_2Q&oe=687A5BDE&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:51.025Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:13:51,213 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:13:51,213 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "Mady \ud83c\udf37",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:13:51.201Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:04,924 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:04,924 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:04.913Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:04,992 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:04,992 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "307C3DCB00362BD27238AB3D8D6C9B07",
-      "participant": "51928904425@s.whatsapp.net"
-    },
-    "pushName": "Mady \ud83c\udf37",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "stickerMessage": {
-        "url": "https://mmg.whatsapp.net/v/t62.15575-24/11935043_1367770320988659_5472591762229987616_n.enc?ccb=11-4&oh=01_Q5Aa1wHRGarx3ySxpdVqAjuv_SBedDpJdjpbwYM5QRKVbpLbAw&oe=6894B0E9&_nc_sid=5e03e0&mms3=true",
-        "fileSha256": "Qp0T141N5Uw3lcC12F1AtbtdraoUZup+DmRv40Mvxyg=",
-        "fileEncSha256": "t5FlMtdHFzgLCvJLd7cYtq57m6bTjZTDAtTCasAFsj8=",
-        "mediaKey": "VqZVVegDcr2nV98jsufaFr0DUjzcyUVNbKrDmYzsS/g=",
-        "mimetype": "image/webp",
-        "height": 64,
-        "width": 64,
-        "directPath": "/v/t62.15575-24/11935043_1367770320988659_5472591762229987616_n.enc?ccb=11-4&oh=01_Q5Aa1wHRGarx3ySxpdVqAjuv_SBedDpJdjpbwYM5QRKVbpLbAw&oe=6894B0E9&_nc_sid=5e03e0",
-        "fileLength": "227806",
-        "mediaKeyTimestamp": "1751911879",
-        "firstFrameLength": 227430,
-        "firstFrameSidecar": "4zfwIbDXK/cmLw==",
-        "isAnimated": true,
-        "contextInfo": {
-          "stanzaId": "CA672D476550291E1EBBA37E4D8D5B52",
-          "participant": "51966783305@s.whatsapp.net",
-          "quotedMessage": {
-            "imageMessage": {
-              "url": "https://mmg.whatsapp.net/o1/v/t24/f2/m239/AQP4dnB3HKskvIC3a00GKSN9583OBCPQ-V7FxGa9p3Kv7W-LCXO6y_L5FHXFzPbjURVkJaG9-LQRSlvvYg2yXScVftTWBEXy4KTEzqts9Q?ccb=9-4&oh=01_Q5Aa1wFWhjZZVpzz0PyW5_W8Skv_Z4QvadgxxdYuooW_mGrCzw&oe=6894D276&_nc_sid=e6ed6c&mms3=true",
-              "mimetype": "image/jpeg",
-              "fileSha256": "FCm7Sj0lDMMMqPh03xvpWAzosk42gXrvnf//k2L/6Rw=",
-              "fileLength": "172223",
-              "height": 2048,
-              "width": 1426,
-              "mediaKey": "hQuvX7gAoSUjcMpHsj2li7sAdgzvB1+WXuvS9KgARrM=",
-              "fileEncSha256": "Br8nYOtzMS/Ojth/X4tAUA76DjGqoWqyUlUzd62cWXo=",
-              "directPath": "/o1/v/t24/f2/m239/AQP4dnB3HKskvIC3a00GKSN9583OBCPQ-V7FxGa9p3Kv7W-LCXO6y_L5FHXFzPbjURVkJaG9-LQRSlvvYg2yXScVftTWBEXy4KTEzqts9Q?ccb=9-4&oh=01_Q5Aa1wFWhjZZVpzz0PyW5_W8Skv_Z4QvadgxxdYuooW_mGrCzw&oe=6894D276&_nc_sid=e6ed6c",
-              "mediaKeyTimestamp": "1751994797",
-              "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEAALAMBIgACEQEDEQH/xAAuAAADAQEBAAAAAAAAAAAAAAABAgMEAAUBAQEBAQAAAAAAAAAAAAAAAAIBAwD/2gAMAwEAAhADEAAAAMnc2mypoWKAfR3RKLTsrN6lgKFzKm55TnvDptAtt1o2edUzA2o7pf/EACQQAQACAgEDBAMBAAAAAAAAAAEAAgMRMQQSIRATMjMUICJB/9oACAEBAAE/APRP0JVB8xxl7brL4r0NpA7kI48Z49a1KG15nuu9WP5lqUrctwSzVVLRFYb4hU1UXiZfjoIre2oVw08QtpnNtrM2fIZWozHmuWlHVhYlbK6gQ8TL9tlmCmy1t8Q1/sbb4gO4mplEvtnT+VrGj2M32gJO/Lr6pfPbf1zqLmUqldSq0tW1az8uqfCV6qtjftz/xAAcEQACAgIDAAAAAAAAAAAAAAAAAQIRIVEQIEH/2gAIAQIBAT8A6UpLAovlMpbPTGz/xAAcEQACAgMBAQAAAAAAAAAAAAAAAQIhEBIxEWH/2gAIAQMBAT8AHFojFy5hSnt9G/K5hN7UNt2yjjKP/9k=",
-              "contextInfo": {},
-              "scansSidecar": "057kwHWjt8dX7FoGONMkzjFCuoI=",
-              "scanLengths": [
-                39000,
-                133223
-              ]
-            }
-          }
-        },
-        "stickerSentTs": "1751994844265",
-        "isAvatar": false,
-        "isAiSticker": false,
-        "isLottie": false
-      },
-      "messageContextInfo": {
-        "messageSecret": "dxu5GWo/s1+kbDRHsf9QjgoX4GVPl3y894ltAk5h79w="
-      }
-    },
-    "contextInfo": {
-      "stanzaId": "CA672D476550291E1EBBA37E4D8D5B52",
-      "participant": "51966783305@s.whatsapp.net",
-      "quotedMessage": {
-        "imageMessage": {
-          "url": "https://mmg.whatsapp.net/o1/v/t24/f2/m239/AQP4dnB3HKskvIC3a00GKSN9583OBCPQ-V7FxGa9p3Kv7W-LCXO6y_L5FHXFzPbjURVkJaG9-LQRSlvvYg2yXScVftTWBEXy4KTEzqts9Q?ccb=9-4&oh=01_Q5Aa1wFWhjZZVpzz0PyW5_W8Skv_Z4QvadgxxdYuooW_mGrCzw&oe=6894D276&_nc_sid=e6ed6c&mms3=true",
-          "mimetype": "image/jpeg",
-          "fileSha256": "FCm7Sj0lDMMMqPh03xvpWAzosk42gXrvnf//k2L/6Rw=",
-          "fileLength": "172223",
-          "height": 2048,
-          "width": 1426,
-          "mediaKey": "hQuvX7gAoSUjcMpHsj2li7sAdgzvB1+WXuvS9KgARrM=",
-          "fileEncSha256": "Br8nYOtzMS/Ojth/X4tAUA76DjGqoWqyUlUzd62cWXo=",
-          "directPath": "/o1/v/t24/f2/m239/AQP4dnB3HKskvIC3a00GKSN9583OBCPQ-V7FxGa9p3Kv7W-LCXO6y_L5FHXFzPbjURVkJaG9-LQRSlvvYg2yXScVftTWBEXy4KTEzqts9Q?ccb=9-4&oh=01_Q5Aa1wFWhjZZVpzz0PyW5_W8Skv_Z4QvadgxxdYuooW_mGrCzw&oe=6894D276&_nc_sid=e6ed6c",
-          "mediaKeyTimestamp": "1751994797",
-          "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEAALAMBIgACEQEDEQH/xAAuAAADAQEBAAAAAAAAAAAAAAABAgMEAAUBAQEBAQAAAAAAAAAAAAAAAAIBAwD/2gAMAwEAAhADEAAAAMnc2mypoWKAfR3RKLTsrN6lgKFzKm55TnvDptAtt1o2edUzA2o7pf/EACQQAQACAgEDBAMBAAAAAAAAAAEAAgMRMQQSIRATMjMUICJB/9oACAEBAAE/APRP0JVB8xxl7brL4r0NpA7kI48Z49a1KG15nuu9WP5lqUrctwSzVVLRFYb4hU1UXiZfjoIre2oVw08QtpnNtrM2fIZWozHmuWlHVhYlbK6gQ8TL9tlmCmy1t8Q1/sbb4gO4mplEvtnT+VrGj2M32gJO/Lr6pfPbf1zqLmUqldSq0tW1az8uqfCV6qtjftz/xAAcEQACAgIDAAAAAAAAAAAAAAAAAQIRIVEQIEH/2gAIAQIBAT8A6UpLAovlMpbPTGz/xAAcEQACAgMBAQAAAAAAAAAAAAAAAQIhEBIxEWH/2gAIAQMBAT8AHFojFy5hSnt9G/K5hN7UNt2yjjKP/9k=",
-          "contextInfo": {},
-          "scansSidecar": "057kwHWjt8dX7FoGONMkzjFCuoI=",
-          "scanLengths": [
-            39000,
-            133223
-          ]
-        }
-      }
-    },
-    "messageType": "stickerMessage",
-    "messageTimestamp": 1751994845,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:04.984Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:05,067 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:05,068 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51928904425@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/208293664_1013124836160199_2631916416722423018_n.jpg?ccb=11-4&oh=01_Q5Aa1wFmOF0Lmmhjqiu_f9YQJfLzu6df9mCZs4fWORQeMG5_2Q&oe=687A5BDE&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:05.061Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:05,257 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:05,257 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "Mady \ud83c\udf37",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:05.250Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:26,707 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:26,708 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusg4kg00axnr6okisjq3km",
-    "keyId": "3EB0C8AD1EA065DDF9F96E",
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "fromMe": false,
-    "participant": "51943321378@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:26.695Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:26,717 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:26,718 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-      "name": "",
-      "unreadMessages": 0
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:26.707Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:26,896 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:26,897 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusg19i00aqnr6ooli2qlk6",
-    "keyId": "3EB0B98A6E4EB780941F33",
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "fromMe": false,
-    "participant": "51943321378@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:26.889Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:26,904 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:26,905 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-      "name": "",
-      "unreadMessages": 0
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:26.898Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:27,073 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:27,073 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusfyax00ajnr6ozcr0jqn1",
-    "keyId": "3EB0C8E25F420E73198BE1",
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "fromMe": false,
-    "participant": "51943321378@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:27.066Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:27,091 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:27,091 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-      "name": "",
-      "unreadMessages": 0
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:27.082Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,029 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,030 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.019Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,037 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,037 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600yy56whv2rhad20",
-      "name": "Sebastian Mafaldo"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.025Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,144 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,144 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": true,
-      "id": "3EB0E61DE26C403686ADBE"
-    },
-    "pushName": "Sebastian Mafaldo",
-    "status": "SERVER_ACK",
-    "message": {
-      "conversation": "si csm es lo bueno"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": false
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994874,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.137Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,206 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,206 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusigmq00csnr6ohswcwf2x",
-    "keyId": "3EB0E61DE26C403686ADBE",
-    "remoteJid": "51943321378:16@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378:16@s.whatsapp.net",
-    "status": "DELIVERY_ACK",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.199Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,353 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,354 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.348Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,952 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,952 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusigmq00csnr6ohswcwf2x",
-    "keyId": "3EB0E61DE26C403686ADBE",
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378@s.whatsapp.net",
-    "status": "DELIVERY_ACK",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.946Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:34,960 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:34,960 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-      "name": "",
-      "unreadMessages": 0
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:34.954Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,486 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,487 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.479Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,493 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,493 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600yy56whv2rhad20",
-      "name": "Sebastian Mafaldo"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.485Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,592 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,593 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": true,
-      "id": "3EB005B1F3762181BE4435"
-    },
-    "pushName": "Sebastian Mafaldo",
-    "status": "SERVER_ACK",
-    "message": {
-      "conversation": "hoy chambeas todo el dia\u00a1?"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": false
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994880,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.586Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,611 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,611 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusikud00d0nr6oigk0yu71",
-    "keyId": "3EB005B1F3762181BE4435",
-    "remoteJid": "51943321378:16@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378:16@s.whatsapp.net",
-    "status": "DELIVERY_ACK",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.610Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,706 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,706 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusikud00d0nr6oigk0yu71",
-    "keyId": "3EB005B1F3762181BE4435",
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378@s.whatsapp.net",
-    "status": "DELIVERY_ACK",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.699Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,715 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,716 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-      "name": "",
-      "unreadMessages": 0
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.707Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:39,798 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:39,798 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:39.792Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:59,707 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:59,707 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:59.696Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:59,713 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:59,713 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600y856whtg3amd4a",
-      "name": "MAR"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:59.703Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:59,780 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:59,781 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51937517309-1468284996@g.us",
-      "fromMe": false,
-      "id": "7CBC7D706EC4F3FA48BF5DA1B28CA897",
-      "participant": "51901971091@s.whatsapp.net"
-    },
-    "pushName": "MAR",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "senderKeyDistributionMessage": {
-        "groupId": "51937517309-1468284996@g.us",
-        "axolotlSenderKeyDistributionMessage": "Mwj7/aquAxAAGiDzq95TwHZ4AhP7HMIXQSWBlZMQbyJhIkmK4089G5rniiIhBbcoHm/A6etQjUQZmU9f/oV+kMx4FMVQJgUCKOeVQztP"
-      },
-      "messageContextInfo": {
-        "messageSecret": "Vwc6CDnzSYy6s8B6zlw/2ASoHLNcL2WYWEwRxnajmuI="
-      },
-      "stickerMessage": {
-        "url": "https://mmg.whatsapp.net/v/t62.15575-24/11982145_1437797453925599_8180118413230256491_n.enc?ccb=11-4&oh=01_Q5Aa1wE_B13vnHVnDUoGDd6OsDjaeeB5M5v5UA6jZN8VBffJkQ&oe=6894C9B7&_nc_sid=5e03e0&mms3=true",
-        "fileSha256": "iE28j2nRASJP7+uhiPYBvx6cQM+LzbdLb2YU+vLePK0=",
-        "fileEncSha256": "7xpUtWO9i1+KA0TjlYRx/qHleKc+f+xxk3gn1U0L9Qg=",
-        "mediaKey": "XzF1hT9s/UruscMnmF9bhzpU4KetBWKxF+VHQh0jfww=",
-        "mimetype": "image/webp",
-        "height": 512,
-        "width": 512,
-        "directPath": "/v/t62.15575-24/11982145_1437797453925599_8180118413230256491_n.enc?ccb=11-4&oh=01_Q5Aa1wE_B13vnHVnDUoGDd6OsDjaeeB5M5v5UA6jZN8VBffJkQ&oe=6894C9B7&_nc_sid=5e03e0",
-        "fileLength": "35288",
-        "mediaKeyTimestamp": "1751918677",
-        "isAnimated": false,
-        "stickerSentTs": "1751994886400",
-        "isAvatar": false,
-        "isAiSticker": false,
-        "isLottie": false
-      }
-    },
-    "contextInfo": null,
-    "messageType": "stickerMessage",
-    "messageTimestamp": 1751994899,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "android"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:59.773Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:14:59,878 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:14:59,879 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51901971091@s.whatsapp.net",
-      "profilePicUrl": null,
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:14:59.871Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:00,093 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:00,094 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51937517309-1468284996@g.us",
-    "pushName": "MAR",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/491874084_1713723199274410_3554115059779000816_n.jpg?ccb=11-4&oh=01_Q5Aa1wEsndmOLLslZMR0EQcDyL-swuojS_VagDaP7dxJsMqFgw&oe=687A4AC3&_nc_sid=5e03e0&_nc_cat=103",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:00.086Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:10,631 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:10,632 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusikud00d0nr6oigk0yu71",
-    "keyId": "3EB005B1F3762181BE4435",
-    "remoteJid": "51943321378:16@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378:16@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:10.620Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:10,643 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:10,643 - [INFO] - {
-  "event": "messages.update",
-  "instance": "Sebastian",
-  "data": {
-    "messageId": "cmcusigmq00csnr6ohswcwf2x",
-    "keyId": "3EB0E61DE26C403686ADBE",
-    "remoteJid": "51943321378:16@s.whatsapp.net",
-    "fromMe": true,
-    "participant": "51943321378:16@s.whatsapp.net",
-    "status": "READ",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:10.637Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:21,756 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:21,757 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:21.741Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:21,758 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:21,758 - [INFO] - {
-  "event": "chats.upsert",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "id": "cmcqgp1e600yy56whv2rhad20",
-      "name": "Manuel Vasquez"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:21.749Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:21,827 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:21,828 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": false,
-      "id": "3EB0F24DDCB9FC0F9D687A"
-    },
-    "pushName": "Manuel Vasquez",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "messageContextInfo": {
-        "deviceListMetadata": {
-          "senderKeyHash": "HErwcK0gyDY4DQ==",
-          "senderTimestamp": "1751983165",
-          "senderAccountType": "E2EE",
-          "receiverAccountType": "E2EE",
-          "recipientKeyHash": "duaOY3Eq4KR2xQ==",
-          "recipientTimestamp": "1751733149"
-        },
-        "deviceListMetadataVersion": 2,
-        "messageSecret": "kd8F0C7/GlE9JkvWB/WPJGYTqU9H8iGPwHQ153ZAlvs="
-      },
-      "conversation": "Hasta las 5:30"
-    },
-    "contextInfo": {
-      "stanzaId": "3EB005B1F3762181BE4435",
-      "participant": "51961001307@s.whatsapp.net",
-      "quotedMessage": {
-        "conversation": "hoy chambeas todo el dia\u00a1?",
-        "messageContextInfo": {
-          "messageSecret": "HUoOs7n7A7zHvBsmlKDcPwR3Sq2dIEAZvQGRNh70xnQ="
-        }
-      },
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": true
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994922,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:21.818Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:21,891 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:21,892 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:21.883Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:22,026 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:22,027 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "Manuel Vasquez",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:22.020Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:24,552 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:24,552 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:24.542Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:24,616 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:24,617 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": false,
-      "id": "3EB086A1AC90B839956704"
-    },
-    "pushName": "Manuel Vasquez",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "messageContextInfo": {
-        "deviceListMetadata": {
-          "senderKeyHash": "HErwcK0gyDY4DQ==",
-          "senderTimestamp": "1751983165",
-          "senderAccountType": "E2EE",
-          "receiverAccountType": "E2EE",
-          "recipientKeyHash": "duaOY3Eq4KR2xQ==",
-          "recipientTimestamp": "1751733149"
-        },
-        "deviceListMetadataVersion": 2,
-        "messageSecret": "IKIPRaBsRdxIx0/dyqgTwOLexaJlEIDZfaungSPjiNY="
-      },
-      "conversation": "Pedir\u00e9 permiso"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": true
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994925,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:24.608Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:24,794 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:24,795 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:24.788Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:24,806 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:24,807 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "Manuel Vasquez",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:24.799Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:26,447 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:26,447 - [INFO] - {
-  "event": "chats.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:26.440Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:26,509 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:26,509 - [INFO] - {
-  "event": "messages.upsert",
-  "instance": "Sebastian",
-  "data": {
-    "key": {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "fromMe": false,
-      "id": "3EB0F4BCEC90C79B07A6C8"
-    },
-    "pushName": "Manuel Vasquez",
-    "status": "DELIVERY_ACK",
-    "message": {
-      "messageContextInfo": {
-        "deviceListMetadata": {
-          "senderKeyHash": "HErwcK0gyDY4DQ==",
-          "senderTimestamp": "1751983165",
-          "senderAccountType": "E2EE",
-          "receiverAccountType": "E2EE",
-          "recipientKeyHash": "duaOY3Eq4KR2xQ==",
-          "recipientTimestamp": "1751733149"
-        },
-        "deviceListMetadataVersion": 2,
-        "messageSecret": "beOdoj2J2Em3JmOMRL51CG/5dM067+FLsbIJCIjwpG0="
-      },
-      "conversation": "Este mes"
-    },
-    "contextInfo": {
-      "ephemeralSettingTimestamp": "1751321350",
-      "disappearingMode": {
-        "initiator": "CHANGED_IN_CHAT",
-        "trigger": "CHAT_SETTING",
-        "initiatedByMe": true
-      }
-    },
-    "messageType": "conversation",
-    "messageTimestamp": 1751994927,
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8",
-    "source": "web"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:26.502Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:26,584 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:26,584 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": [
-    {
-      "remoteJid": "51943321378@s.whatsapp.net",
-      "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-      "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-    }
-  ],
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:26.577Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
-2025-07-08 12:15:26,705 - [INFO] - Webhook recibido de la instancia 'test_instance':
-2025-07-08 12:15:26,706 - [INFO] - {
-  "event": "contacts.update",
-  "instance": "Sebastian",
-  "data": {
-    "remoteJid": "51943321378@s.whatsapp.net",
-    "pushName": "Manuel Vasquez",
-    "profilePicUrl": "https://pps.whatsapp.net/v/t61.24694-24/454326624_547982607944852_255025270097958528_n.jpg?ccb=11-4&oh=01_Q5Aa1wF1d2ZanCOdD6e_bJla4IgLKkNgLKM69Nwva2jdBNv-VA&oe=687A5B5B&_nc_sid=5e03e0&_nc_cat=100",
-    "instanceId": "9d20741c-550b-4290-9a3a-e234201672c8"
-  },
-  "destination": "http://172.20.10.3:8000/api/webhooks/evolution/test_instance",
-  "date_time": "2025-07-08T14:15:26.697Z",
-  "sender": "51961001307@s.whatsapp.net",
-  "server_url": "http://localhost:8080",
-  "apikey": "DEFF2BE6D609-4C71-A9C3-19C55D2475E9"
-}
+2025-07-14 16:33:12.346 | INFO:     Started server process [1]
+2025-07-14 16:33:12.346 | INFO:     Waiting for application startup.
+2025-07-14 16:33:12.346 | INFO:     Application startup complete.
+2025-07-14 16:33:12.349 | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-07-14 16:33:44.641 | INFO:     172.18.0.1:53480 - "GET /docs HTTP/1.1" 200 OK
+2025-07-14 16:33:45.197 | INFO:     172.18.0.1:53480 - "GET /openapi.json HTTP/1.1" 200 OK
+2025-07-14 16:33:57.114 | 2025-07-14 21:33:57,110 - [WARNING] - (trapped) error reading bcrypt version
+2025-07-14 16:33:57.114 | Traceback (most recent call last):
+2025-07-14 16:33:57.114 |   File "/usr/local/lib/python3.10/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+2025-07-14 16:33:57.114 |     version = _bcrypt.__about__.__version__
+2025-07-14 16:33:57.114 | AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-07-14 16:33:57.518 | INFO:     172.18.0.1:35060 - "POST /api/auth/register HTTP/1.1" 201 Created
+2025-07-14 16:34:01.982 | INFO:     172.18.0.1:35060 - "POST /api/auth/login HTTP/1.1" 200 OK
+2025-07-14 16:34:10.109 | 2025-07-14 21:34:10,109 - [INFO] - Iniciando el proceso de creación de instancia...
+2025-07-14 16:34:10.605 | 2025-07-14 21:34:10,605 - [INFO] - Contenedor 'wa_instance_1_477bdd38' iniciado exitosamente.
+2025-07-14 16:34:10.605 | 2025-07-14 21:34:10,605 - [INFO] - Verificando la instancia en: http://host.docker.internal:47549/api/server/status
+2025-07-14 16:34:10.615 | 2025-07-14 21:34:10,614 - [INFO] - Esperando a la instancia en http://host.docker.internal:47549...
+2025-07-14 16:34:12.622 | 2025-07-14 21:34:12,622 - [INFO] - Esperando a la instancia en http://host.docker.internal:47549...
+2025-07-14 16:34:14.632 | 2025-07-14 21:34:14,631 - [INFO] - Esperando a la instancia en http://host.docker.internal:47549...
+2025-07-14 16:34:16.660 | 2025-07-14 21:34:16,660 - [INFO] - ¡ÉXITO! La instancia en http://host.docker.internal:47549 está lista.
+2025-07-14 16:34:16.660 | 2025-07-14 21:34:16,660 - [INFO] - Configurando sesión 'default' para la instancia en http://host.docker.internal:47549...
+2025-07-14 16:34:16.660 | 2025-07-14 21:34:16,660 - [INFO] - URL del Webhook a configurar: http://host.docker.internal:8000/api/webhooks/waha/wa_instance_1_477bdd38
+2025-07-14 16:34:16.693 | 2025-07-14 21:34:16,692 - [INFO] - Sesión 'default' configurada exitosamente. Respuesta: {'name': 'default', 'status': 'STOPPED', 'config': {'webhooks': [{'url': 'http://host.docker.internal:8000/api/webhooks/waha/wa_instance_1_477bdd38', 'events': ['message', 'session.status']}]}, 'me': None, 'engine': {}}
+2025-07-14 16:34:16.708 | 2025-07-14 21:34:16,708 - [INFO] - Instancia 'wa_instance_1_477bdd38' guardada en la base de datos principal.
+2025-07-14 16:34:16.712 | INFO:     172.18.0.1:39036 - "POST /api/instances/ HTTP/1.1" 201 Created
+2025-07-14 16:37:03.149 | INFO:     172.18.0.1:48122 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:37:15.574 | INFO:     172.18.0.1:38988 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:38:14.877 | 2025-07-14 21:38:14,875 - [INFO] - Redirigiendo al usuario a la URL de autorización de GHL: https://marketplace.gohighlevel.com/oauth/chooselocation?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fapi%2Fmarketplace%2Fcallback&client_id=68719344b0076c5c2d04091c-md0c6r0b&scope=contacts.readonly+contacts.write+conversations.readonly+conversations.write+conversations%2Fmessage.readonly+conversations%2Fmessage.write+users.readonly&state=user%3A1
+2025-07-14 16:38:14.878 | INFO:     172.18.0.1:34978 - "GET /api/marketplace/connect HTTP/1.1" 307 Temporary Redirect
+2025-07-14 16:38:15.392 | INFO:     172.18.0.1:34986 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:38:23.075 | INFO:     172.18.0.1:46008 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:38:43.971 | 2025-07-14 21:38:43,970 - [INFO] - Recibido callback de GHL con código de autorización y estado: user:1
+2025-07-14 16:38:44.685 | 2025-07-14 21:38:44,684 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/oauth/token "HTTP/1.1 200 OK"
+2025-07-14 16:38:44.686 | 2025-07-14 21:38:44,686 - [INFO] - ================= RESPUESTA DE GOHIGHLEVEL =================
+2025-07-14 16:38:44.686 | 2025-07-14 21:38:44,686 - [INFO] - Datos JSON recibidos de GHL: {
+2025-07-14 16:38:44.686 |   "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoQ2xhc3MiOiJMb2NhdGlvbiIsImF1dGhDbGFzc0lkIjoiVVl1T2hoekpid2dST1lDbTUxQUoiLCJzb3VyY2UiOiJJTlRFR1JBVElPTiIsInNvdXJjZUlkIjoiNjg3MTkzNDRiMDA3NmM1YzJkMDQwOTFjLW1kMGM2cjBiIiwiY2hhbm5lbCI6Ik9BVVRIIiwicHJpbWFyeUF1dGhDbGFzc0lkIjoiVVl1T2hoekpid2dST1lDbTUxQUoiLCJvYXV0aE1ldGEiOnsic2NvcGVzIjpbImNvbnRhY3RzLnJlYWRvbmx5IiwiY29udGFjdHMud3JpdGUiLCJjb252ZXJzYXRpb25zLnJlYWRvbmx5IiwiY29udmVyc2F0aW9ucy53cml0ZSIsImNvbnZlcnNhdGlvbnMvbWVzc2FnZS5yZWFkb25seSIsImNvbnZlcnNhdGlvbnMvbWVzc2FnZS53cml0ZSIsInVzZXJzLnJlYWRvbmx5Il0sImNsaWVudCI6IjY4NzE5MzQ0YjAwNzZjNWMyZDA0MDkxYyIsInZlcnNpb25JZCI6IjY4NzE5MzQ0YjAwNzZjNWMyZDA0MDkxYyIsImNsaWVudEtleSI6IjY4NzE5MzQ0YjAwNzZjNWMyZDA0MDkxYy1tZDBjNnIwYiJ9LCJpYXQiOjE3NTI1MjkxMjQuNDAzLCJleHAiOjE3NTI2MTU1MjQuNDAzfQ.NZSb3IW-hOcY_3ZTHLXGKuoQPm7iIs6a0231nPRZLGKgz53TDLNyY21V3yq6MKEnzEfTz7ZcKTIsMY0p4KpLJJPDLOyS9gJIENpdhQFpvuaOGkQgWJ01zpyHs2J3S15WiwGrCJHiJTAEI7Zm7LRl7N8IfMyxiDk6iKdBZGIMRKBEvKg6DG9MHGbslxTl5znCZdR8kF2vSo_Qzna14nMkqSu1orBdUa2Z208JqG5mJfMX3c2-g5JN0yjXrXDuD60hzhSQcBb-jOlSX-HSzDmxJnNB08ie2jIbQLlNlmNlEZex05k0PuuEIn1T_-3jzjsQyKzndFNmrZNYZEUE9ziRYLUT1g6Ph2uob_URAVz2MKhJlni2yR5O-A8EyZN8FEWK3KmH6SxR7oNhPk3AAba9xI9GpU3MsQhMyNZ9pqZS7JZ0nCAA3NPYVSujiVVeeXo9iQjcrnLP9Chn8mGYceWT64f64HlU-jSAo5RWRiAeoc72JsILJ7mkMl40kq4tgJjZs9dwRR7146dgJvHxmnVBwUMxpWffA_XFSFkQT76914nxs5hGmQxWFDNjGTokd4EzQG4AnE-2xxLNxJRHwap3k_OzX9rW3l70UUywOASk85xbhR0UBMwTn0wSJGlfxLsj-6UVQd9IIyLIKcp_LbiqOWaewhOf1AdsrY8S2NAP0Q0",
+2025-07-14 16:38:44.686 |   "token_type": "Bearer",
+2025-07-14 16:38:44.687 |   "expires_in": 86399,
+2025-07-14 16:38:44.687 |   "refresh_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoQ2xhc3MiOiJMb2NhdGlvbiIsImF1dGhDbGFzc0lkIjoiVVl1T2hoekpid2dST1lDbTUxQUoiLCJzb3VyY2UiOiJJTlRFR1JBVElPTiIsInNvdXJjZUlkIjoiNjg3MTkzNDRiMDA3NmM1YzJkMDQwOTFjLW1kMGM2cjBiIiwiY2hhbm5lbCI6Ik9BVVRIIiwicHJpbWFyeUF1dGhDbGFzc0lkIjoiVVl1T2hoekpid2dST1lDbTUxQUoiLCJvYXV0aE1ldGEiOnsic2NvcGVzIjpbImNvbnRhY3RzLnJlYWRvbmx5IiwiY29udGFjdHMud3JpdGUiLCJjb252ZXJzYXRpb25zLnJlYWRvbmx5IiwiY29udmVyc2F0aW9ucy53cml0ZSIsImNvbnZlcnNhdGlvbnMvbWVzc2FnZS5yZWFkb25seSIsImNvbnZlcnNhdGlvbnMvbWVzc2FnZS53cml0ZSIsInVzZXJzLnJlYWRvbmx5Il0sImNsaWVudCI6IjY4NzE5MzQ0YjAwNzZjNWMyZDA0MDkxYyIsInZlcnNpb25JZCI6IjY4NzE5MzQ0YjAwNzZjNWMyZDA0MDkxYyIsImNsaWVudEtleSI6IjY4NzE5MzQ0YjAwNzZjNWMyZDA0MDkxYy1tZDBjNnIwYiJ9LCJpYXQiOjE3NTI1MjkxMjQuNDExLCJleHAiOjE3ODQwNjUxMjQuNDExLCJ1bmlxdWVJZCI6IjRkNjc5ZjcxLTFlZTUtNGE5NS1hNDI4LTVjMjY4ZDYyNzZmZCIsInYiOiIyIn0.SiRU8FJN7vlWKwFwNXeAQ8TQKdlbulkEH4870UdXmw1o34eyBzl6Ha-TldLvMY3_2Uvjs_vpO7GQ_fvW8b6n1oMTtfhUbEr7BLoWDt1R--U_CQMdk_wH8Y6Hrb_y7Th7qdNhCNJrWE7jjxgLSRYZAQ3b1fHadRiyiII13mc6Z-4ut0IYmWmKN_rBNnxiF57oN0VzjuXAXmni6FNbyJ25eoeif7SV-Cwel-gf2Z7-0C-uoNx7AdUl9hZvh5VdlCUpEs3tjBUIgyU6JC2tSiwXpqOn1FtwRgPvgSR_5mp6re9Zwt0Jf2B03ydFDbU3jFuNVrq0BIw0hRwjYBg2oKCgg6_oxYvns7lWRNpojicXCMMCVhzd2JR1XyAqbf2wIkql9Qx0NWs6z1oTBr9xM87jzhZG2DD4Yn3EJhj9SkU4c4JuNVJUq10E8BQQ1dU1Yd-DlTmSuDI1AIAXNGj9694OFPkN2Uk3nfhwcwc8UQoTL1_bm4kBguIDUWNhLuG40G3V3OVPKYhCGnN70MHoMPly3-9YQ_Z5lJebeNA_MsfjSt5btnTSpiss-g1hprFSBbzTaxwKtNv2SD_jisQVnqtO5A0c4AVXGcZ4LisK_-8HDOVP_yhAeTnkNhGZTzU8XPo3MyfDuHZRSq2C5cVhBoKc-2mB6ovT9jgmT-lmtrOe3Kc",
+2025-07-14 16:38:44.687 |   "scope": "contacts.readonly contacts.write conversations.readonly conversations.write conversations/message.readonly conversations/message.write users.readonly",
+2025-07-14 16:38:44.687 |   "refreshTokenId": "687578e4443ccc4e3947940f",
+2025-07-14 16:38:44.687 |   "userType": "Location",
+2025-07-14 16:38:44.687 |   "companyId": "MneeEG6xXlnSZOWVUsLj",
+2025-07-14 16:38:44.687 |   "locationId": "UYuOhhzJbwgROYCm51AJ",
+2025-07-14 16:38:44.687 |   "isBulkInstallation": false,
+2025-07-14 16:38:44.687 |   "userId": "1GvNWdDSNlCoDdOIvJAU"
+2025-07-14 16:38:44.687 | }
+2025-07-14 16:38:44.687 | 2025-07-14 21:38:44,686 - [INFO] - ==========================================================
+2025-07-14 16:38:44.704 | 2025-07-14 21:38:44,703 - [INFO] - Datos guardados en la base de datos.
+2025-07-14 16:38:44.704 | 2025-07-14 21:38:44,704 - [INFO] - Verificación post-guardado -> Access Token: OK
+2025-07-14 16:38:44.704 | 2025-07-14 21:38:44,704 - [INFO] - Verificación post-guardado -> Location ID: UYuOhhzJbwgROYCm51AJ
+2025-07-14 16:38:44.704 | 2025-07-14 21:38:44,704 - [INFO] - Verificación post-guardado -> User ID: 1GvNWdDSNlCoDdOIvJAU
+2025-07-14 16:38:44.707 | INFO:     172.18.0.1:37656 - "GET /api/marketplace/callback?code=f14646a50e3fcaac3aea3593fa90f52b7c07174f&state=user%3A1 HTTP/1.1" 200 OK
+2025-07-14 16:38:44.787 | INFO:     172.18.0.1:37662 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2025-07-14 16:39:23.065 | INFO:     172.18.0.1:53466 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:39:43.075 | INFO:     172.18.0.1:33722 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:39:50.784 | INFO:     172.18.0.1:52240 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:39:56.696 | INFO:     172.18.0.1:45896 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:40:56.560 | INFO:     172.18.0.1:34848 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:41:16.552 | INFO:     172.18.0.1:59614 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:41:54.791 | INFO:     172.18.0.1:39790 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:42:06.658 | 2025-07-14 21:42:06,657 - [INFO] - ==================== GHL -> SEND-MESSAGE ====================
+2025-07-14 16:42:06.658 | 2025-07-14 21:42:06,657 - [INFO] - Petición de envío recibida desde GHL: {
+2025-07-14 16:42:06.658 |   "userId": "1GvNWdDSNlCoDdOIvJAU",
+2025-07-14 16:42:06.658 |   "attachments": [],
+2025-07-14 16:42:06.658 |   "contactId": "ZhDEfMqaL6Asv7hLZ8uc",
+2025-07-14 16:42:06.658 |   "locationId": "UYuOhhzJbwgROYCm51AJ",
+2025-07-14 16:42:06.658 |   "messageId": "XBfnxTm1uQgFu82Q1VsJ",
+2025-07-14 16:42:06.658 |   "type": "SMS",
+2025-07-14 16:42:06.658 |   "conversationId": "qL3AslbEIdywrbsIvdP9",
+2025-07-14 16:42:06.658 |   "phone": "+51922726164",
+2025-07-14 16:42:06.658 |   "message": "hola",
+2025-07-14 16:42:06.658 |   "customUserId": "+51922726164",
+2025-07-14 16:42:06.658 |   "conversationProviderId": "6875354bb78d3c39b5dba3df"
+2025-07-14 16:42:06.658 | }
+2025-07-14 16:42:06.665 | 2025-07-14 21:42:06,664 - [INFO] - WAHA API Call: Enviando mensaje a +51922726164@c.us
+2025-07-14 16:42:06.708 | 2025-07-14 21:42:06,698 - [ERROR] - Excepción inesperada en send_whatsapp_message: All connection attempts failed
+2025-07-14 16:42:06.709 | Traceback (most recent call last):
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+2025-07-14 16:42:06.709 |     yield
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+2025-07-14 16:42:06.709 |     resp = await self._pool.handle_async_request(req)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+2025-07-14 16:42:06.709 |     raise exc from None
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+2025-07-14 16:42:06.709 |     response = await connection.handle_async_request(
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+2025-07-14 16:42:06.709 |     raise exc
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+2025-07-14 16:42:06.709 |     stream = await self._connect(request)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_async/connection.py", line 124, in _connect
+2025-07-14 16:42:06.709 |     stream = await self._network_backend.connect_tcp(**kwargs)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+2025-07-14 16:42:06.709 |     return await self._backend.connect_tcp(
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+2025-07-14 16:42:06.709 |     with map_exceptions(exc_map):
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/contextlib.py", line 153, in __exit__
+2025-07-14 16:42:06.709 |     self.gen.throw(typ, value, traceback)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+2025-07-14 16:42:06.709 |     raise to_exc(exc) from exc
+2025-07-14 16:42:06.709 | httpcore.ConnectError: All connection attempts failed
+2025-07-14 16:42:06.709 | 
+2025-07-14 16:42:06.709 | The above exception was the direct cause of the following exception:
+2025-07-14 16:42:06.709 | 
+2025-07-14 16:42:06.709 | Traceback (most recent call last):
+2025-07-14 16:42:06.709 |   File "/app/services/waha_service.py", line 25, in send_whatsapp_message
+2025-07-14 16:42:06.709 |     response = await client.post(url, headers=headers, json=payload)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_client.py", line 1859, in post
+2025-07-14 16:42:06.709 |     return await self.request(
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_client.py", line 1540, in request
+2025-07-14 16:42:06.709 |     return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+2025-07-14 16:42:06.709 |     response = await self._send_handling_auth(
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+2025-07-14 16:42:06.709 |     response = await self._send_handling_redirects(
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+2025-07-14 16:42:06.709 |     response = await self._send_single_request(request)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+2025-07-14 16:42:06.709 |     response = await transport.handle_async_request(request)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+2025-07-14 16:42:06.709 |     with map_httpcore_exceptions():
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/contextlib.py", line 153, in __exit__
+2025-07-14 16:42:06.709 |     self.gen.throw(typ, value, traceback)
+2025-07-14 16:42:06.709 |   File "/usr/local/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+2025-07-14 16:42:06.709 |     raise mapped_exc(message) from exc
+2025-07-14 16:42:06.709 | httpx.ConnectError: All connection attempts failed
+2025-07-14 16:42:06.712 | INFO:     172.18.0.1:38012 - "POST /api/ghl-actions/send-message HTTP/1.1" 200 OK
+2025-07-14 16:43:34.692 | 2025-07-14 21:43:34,691 - [INFO] - ==================== INICIO DE WEBHOOK DE CHAT ====================
+2025-07-14 16:43:34.692 | 2025-07-14 21:43:34,691 - [INFO] - Webhook de chat válido recibido para la instancia 'wa_instance_1_477bdd38'
+2025-07-14 16:43:34.693 | 2025-07-14 21:43:34,693 - [INFO] - Payload crudo procesado:
+2025-07-14 16:43:34.693 | {
+2025-07-14 16:43:34.693 |   "id": "evt_01k05e9ag75j36h9ceatkse4v9",
+2025-07-14 16:43:34.694 |   "event": "message",
+2025-07-14 16:43:34.694 |   "session": "default",
+2025-07-14 16:43:34.694 |   "me": {
+2025-07-14 16:43:34.694 |     "id": "51961001307@c.us",
+2025-07-14 16:43:34.694 |     "pushName": "Sebastian Mafaldo"
+2025-07-14 16:43:34.694 |   },
+2025-07-14 16:43:34.694 |   "payload": {
+2025-07-14 16:43:34.694 |     "id": "false_51921281892@c.us_3A250CC3D3951A25A34FADBCCE60F62C",
+2025-07-14 16:43:34.694 |     "timestamp": 1752529414,
+2025-07-14 16:43:34.694 |     "from": "51921281892@c.us",
+2025-07-14 16:43:34.694 |     "fromMe": false,
+2025-07-14 16:43:34.694 |     "to": "51961001307@c.us",
+2025-07-14 16:43:34.694 |     "body": "S\u00ed",
+2025-07-14 16:43:34.694 |     "hasMedia": false,
+2025-07-14 16:43:34.694 |     "ack": 1,
+2025-07-14 16:43:34.694 |     "ackName": "SERVER",
+2025-07-14 16:43:34.694 |     "vCards": [],
+2025-07-14 16:43:34.694 |     "_data": {
+2025-07-14 16:43:34.694 |       "id": {
+2025-07-14 16:43:34.694 |         "fromMe": false,
+2025-07-14 16:43:34.694 |         "remote": "51921281892@c.us",
+2025-07-14 16:43:34.694 |         "id": "3A250CC3D3951A25A34FADBCCE60F62C",
+2025-07-14 16:43:34.694 |         "_serialized": "false_51921281892@c.us_3A250CC3D3951A25A34FADBCCE60F62C"
+2025-07-14 16:43:34.694 |       },
+2025-07-14 16:43:34.694 |       "viewed": false,
+2025-07-14 16:43:34.694 |       "body": "S\u00ed",
+2025-07-14 16:43:34.694 |       "type": "chat",
+2025-07-14 16:43:34.694 |       "t": 1752529414,
+2025-07-14 16:43:34.694 |       "notifyName": "Jim Padilla",
+2025-07-14 16:43:34.694 |       "from": "51921281892@c.us",
+2025-07-14 16:43:34.694 |       "to": "51961001307@c.us",
+2025-07-14 16:43:34.694 |       "ack": 1,
+2025-07-14 16:43:34.694 |       "invis": false,
+2025-07-14 16:43:34.694 |       "isNewMsg": true,
+2025-07-14 16:43:34.694 |       "star": false,
+2025-07-14 16:43:34.694 |       "kicNotified": false,
+2025-07-14 16:43:34.694 |       "recvFresh": true,
+2025-07-14 16:43:34.694 |       "isFromTemplate": false,
+2025-07-14 16:43:34.694 |       "pollInvalidated": false,
+2025-07-14 16:43:34.694 |       "isSentCagPollCreation": false,
+2025-07-14 16:43:34.694 |       "latestEditMsgKey": null,
+2025-07-14 16:43:34.694 |       "latestEditSenderTimestampMs": null,
+2025-07-14 16:43:34.694 |       "mentionedJidList": [],
+2025-07-14 16:43:34.694 |       "groupMentions": [],
+2025-07-14 16:43:34.694 |       "isEventCanceled": false,
+2025-07-14 16:43:34.694 |       "eventInvalidated": false,
+2025-07-14 16:43:34.694 |       "isVcardOverMmsDocument": false,
+2025-07-14 16:43:34.694 |       "isForwarded": false,
+2025-07-14 16:43:34.694 |       "isQuestion": false,
+2025-07-14 16:43:34.694 |       "hasReaction": false,
+2025-07-14 16:43:34.694 |       "viewMode": "VISIBLE",
+2025-07-14 16:43:34.694 |       "messageSecret": {
+2025-07-14 16:43:34.694 |         "0": 214,
+2025-07-14 16:43:34.694 |         "1": 149,
+2025-07-14 16:43:34.694 |         "2": 101,
+2025-07-14 16:43:34.694 |         "3": 24,
+2025-07-14 16:43:34.694 |         "4": 17,
+2025-07-14 16:43:34.694 |         "5": 229,
+2025-07-14 16:43:34.694 |         "6": 105,
+2025-07-14 16:43:34.694 |         "7": 59,
+2025-07-14 16:43:34.694 |         "8": 242,
+2025-07-14 16:43:34.694 |         "9": 2,
+2025-07-14 16:43:34.694 |         "10": 224,
+2025-07-14 16:43:34.694 |         "11": 115,
+2025-07-14 16:43:34.694 |         "12": 35,
+2025-07-14 16:43:34.694 |         "13": 252,
+2025-07-14 16:43:34.694 |         "14": 229,
+2025-07-14 16:43:34.694 |         "15": 13,
+2025-07-14 16:43:34.694 |         "16": 217,
+2025-07-14 16:43:34.694 |         "17": 23,
+2025-07-14 16:43:34.694 |         "18": 13,
+2025-07-14 16:43:34.694 |         "19": 4,
+2025-07-14 16:43:34.694 |         "20": 68,
+2025-07-14 16:43:34.694 |         "21": 202,
+2025-07-14 16:43:34.694 |         "22": 126,
+2025-07-14 16:43:34.694 |         "23": 1,
+2025-07-14 16:43:34.694 |         "24": 118,
+2025-07-14 16:43:34.694 |         "25": 76,
+2025-07-14 16:43:34.694 |         "26": 159,
+2025-07-14 16:43:34.694 |         "27": 52,
+2025-07-14 16:43:34.694 |         "28": 238,
+2025-07-14 16:43:34.694 |         "29": 61,
+2025-07-14 16:43:34.694 |         "30": 103,
+2025-07-14 16:43:34.694 |         "31": 37
+2025-07-14 16:43:34.694 |       },
+2025-07-14 16:43:34.694 |       "productHeaderImageRejected": false,
+2025-07-14 16:43:34.694 |       "lastPlaybackProgress": 0,
+2025-07-14 16:43:34.694 |       "isDynamicReplyButtonsMsg": false,
+2025-07-14 16:43:34.694 |       "isCarouselCard": false,
+2025-07-14 16:43:34.694 |       "parentMsgId": null,
+2025-07-14 16:43:34.694 |       "callSilenceReason": null,
+2025-07-14 16:43:34.694 |       "isVideoCall": false,
+2025-07-14 16:43:34.694 |       "callDuration": null,
+2025-07-14 16:43:34.694 |       "callCreator": null,
+2025-07-14 16:43:34.694 |       "callParticipants": null,
+2025-07-14 16:43:34.694 |       "isCallLink": null,
+2025-07-14 16:43:34.694 |       "callLinkToken": null,
+2025-07-14 16:43:34.694 |       "isMdHistoryMsg": false,
+2025-07-14 16:43:34.694 |       "stickerSentTs": 0,
+2025-07-14 16:43:34.694 |       "isAvatar": false,
+2025-07-14 16:43:34.694 |       "lastUpdateFromServerTs": 0,
+2025-07-14 16:43:34.694 |       "invokedBotWid": null,
+2025-07-14 16:43:34.694 |       "bizBotType": null,
+2025-07-14 16:43:34.694 |       "botResponseTargetId": null,
+2025-07-14 16:43:34.694 |       "botPluginType": null,
+2025-07-14 16:43:34.694 |       "botPluginReferenceIndex": null,
+2025-07-14 16:43:34.694 |       "botPluginSearchProvider": null,
+2025-07-14 16:43:34.694 |       "botPluginSearchUrl": null,
+2025-07-14 16:43:34.694 |       "botPluginSearchQuery": null,
+2025-07-14 16:43:34.694 |       "botPluginMaybeParent": false,
+2025-07-14 16:43:34.694 |       "botReelPluginThumbnailCdnUrl": null,
+2025-07-14 16:43:34.694 |       "botMessageDisclaimerText": null,
+2025-07-14 16:43:34.694 |       "botMsgBodyType": null,
+2025-07-14 16:43:34.694 |       "reportingTokenInfo": {
+2025-07-14 16:43:34.694 |         "reportingToken": {
+2025-07-14 16:43:34.694 |           "0": 129,
+2025-07-14 16:43:34.694 |           "1": 210,
+2025-07-14 16:43:34.694 |           "2": 127,
+2025-07-14 16:43:34.694 |           "3": 146,
+2025-07-14 16:43:34.694 |           "4": 41,
+2025-07-14 16:43:34.694 |           "5": 141,
+2025-07-14 16:43:34.694 |           "6": 175,
+2025-07-14 16:43:34.694 |           "7": 93,
+2025-07-14 16:43:34.694 |           "8": 103,
+2025-07-14 16:43:34.694 |           "9": 236,
+2025-07-14 16:43:34.694 |           "10": 68,
+2025-07-14 16:43:34.694 |           "11": 117,
+2025-07-14 16:43:34.694 |           "12": 142,
+2025-07-14 16:43:34.694 |           "13": 220,
+2025-07-14 16:43:34.694 |           "14": 204,
+2025-07-14 16:43:34.694 |           "15": 133
+2025-07-14 16:43:34.694 |         },
+2025-07-14 16:43:34.694 |         "version": 2,
+2025-07-14 16:43:34.694 |         "reportingTag": {
+2025-07-14 16:43:34.694 |           "0": 1,
+2025-07-14 16:43:34.694 |           "1": 8,
+2025-07-14 16:43:34.694 |           "2": 197,
+2025-07-14 16:43:34.694 |           "3": 188,
+2025-07-14 16:43:34.694 |           "4": 43,
+2025-07-14 16:43:34.694 |           "5": 2,
+2025-07-14 16:43:34.694 |           "6": 112,
+2025-07-14 16:43:34.694 |           "7": 168,
+2025-07-14 16:43:34.694 |           "8": 21,
+2025-07-14 16:43:34.694 |           "9": 203,
+2025-07-14 16:43:34.694 |           "10": 105,
+2025-07-14 16:43:34.694 |           "11": 59,
+2025-07-14 16:43:34.694 |           "12": 190,
+2025-07-14 16:43:34.694 |           "13": 194,
+2025-07-14 16:43:34.694 |           "14": 54,
+2025-07-14 16:43:34.694 |           "15": 224,
+2025-07-14 16:43:34.694 |           "16": 5,
+2025-07-14 16:43:34.694 |           "17": 192,
+2025-07-14 16:43:34.694 |           "18": 189,
+2025-07-14 16:43:34.694 |           "19": 120
+2025-07-14 16:43:34.694 |         }
+2025-07-14 16:43:34.694 |       },
+2025-07-14 16:43:34.694 |       "requiresDirectConnection": null,
+2025-07-14 16:43:34.694 |       "bizContentPlaceholderType": null,
+2025-07-14 16:43:34.694 |       "hostedBizEncStateMismatch": false,
+2025-07-14 16:43:34.694 |       "senderOrRecipientAccountTypeHosted": false,
+2025-07-14 16:43:34.694 |       "placeholderCreatedWhenAccountIsHosted": false,
+2025-07-14 16:43:34.694 |       "links": []
+2025-07-14 16:43:34.694 |     }
+2025-07-14 16:43:34.694 |   },
+2025-07-14 16:43:34.694 |   "engine": "WEBJS",
+2025-07-14 16:43:34.694 |   "environment": {
+2025-07-14 16:43:34.694 |     "version": "2025.2.1",
+2025-07-14 16:43:34.694 |     "engine": "WEBJS",
+2025-07-14 16:43:34.694 |     "tier": "CORE",
+2025-07-14 16:43:34.694 |     "browser": "/usr/bin/chromium"
+2025-07-14 16:43:34.694 |   }
+2025-07-14 16:43:34.694 | }
+2025-07-14 16:43:34.694 | 2025-07-14 21:43:34,693 - [INFO] - Webhook validado y encolado para procesamiento.
+2025-07-14 16:43:34.696 | INFO:     172.18.0.1:40836 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:43:34.696 | 2025-07-14 21:43:34,696 - [INFO] - --- [BG-TASK] Iniciando procesado para la instancia 'wa_instance_1_477bdd38' ---
+2025-07-14 16:43:34.696 | 2025-07-14 21:43:34,696 - [INFO] - Datos (ENTRANTE) -> Contacto: Jim Padilla (51921281892), Mensaje: 'Sí'
+2025-07-14 16:43:34.744 | 2025-07-14 21:43:34,744 - [INFO] - GHL API Call (get_or_create_contact): Intentando crear/obtener contacto para 51921281892
+2025-07-14 16:43:35.310 | 2025-07-14 21:43:35,309 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/contacts/ "HTTP/1.1 400 Bad Request"
+2025-07-14 16:43:35.311 | 2025-07-14 21:43:35,311 - [INFO] - Contacto ya existente. ID recuperado del error: K1ZtJZXHtJlZqUJBBZsa
+2025-07-14 16:43:35.312 | 2025-07-14 21:43:35,311 - [INFO] - Contacto en GHL listo. ID: K1ZtJZXHtJlZqUJBBZsa. Procediendo a añadir el mensaje...
+2025-07-14 16:43:35.354 | 2025-07-14 21:43:35,354 - [INFO] - Buscando conversationId para el contacto: K1ZtJZXHtJlZqUJBBZsa
+2025-07-14 16:43:35.928 | 2025-07-14 21:43:35,928 - [INFO] - HTTP Request: GET https://services.leadconnectorhq.com/conversations/search?contactId=K1ZtJZXHtJlZqUJBBZsa "HTTP/1.1 200 OK"
+2025-07-14 16:43:35.931 | 2025-07-14 21:43:35,930 - [WARNING] - No se encontró conversationId para K1ZtJZXHtJlZqUJBBZsa. Se usará el contactId como fallback.
+2025-07-14 16:43:35.970 | 2025-07-14 21:43:35,969 - [INFO] - GHL API Call (add_message): Añadiendo mensaje con payload: {"type": "WhatsApp", "contactId": "K1ZtJZXHtJlZqUJBBZsa", "conversationId": "K1ZtJZXHtJlZqUJBBZsa", "message": "S\u00ed", "direction": "inbound"}
+2025-07-14 16:43:36.948 | 2025-07-14 21:43:36,947 - [INFO] - ==================== INICIO DE WEBHOOK DE CHAT ====================
+2025-07-14 16:43:36.948 | 2025-07-14 21:43:36,948 - [INFO] - Webhook de chat válido recibido para la instancia 'wa_instance_1_477bdd38'
+2025-07-14 16:43:36.949 | 2025-07-14 21:43:36,948 - [INFO] - Payload crudo procesado:
+2025-07-14 16:43:36.949 | {
+2025-07-14 16:43:36.949 |   "id": "evt_01k05e9cqb87f98061rhv2hmec",
+2025-07-14 16:43:36.949 |   "event": "message",
+2025-07-14 16:43:36.949 |   "session": "default",
+2025-07-14 16:43:36.949 |   "me": {
+2025-07-14 16:43:36.949 |     "id": "51961001307@c.us",
+2025-07-14 16:43:36.949 |     "pushName": "Sebastian Mafaldo"
+2025-07-14 16:43:36.949 |   },
+2025-07-14 16:43:36.949 |   "payload": {
+2025-07-14 16:43:36.949 |     "id": "false_51921281892@c.us_CAE469204DD999BAA42EC016FA275DFB",
+2025-07-14 16:43:36.949 |     "timestamp": 1752529416,
+2025-07-14 16:43:36.949 |     "from": "51921281892@c.us",
+2025-07-14 16:43:36.949 |     "fromMe": false,
+2025-07-14 16:43:36.949 |     "to": "51961001307@c.us",
+2025-07-14 16:43:36.949 |     "body": "Qu\u00e9 fue",
+2025-07-14 16:43:36.949 |     "hasMedia": false,
+2025-07-14 16:43:36.949 |     "ack": 1,
+2025-07-14 16:43:36.949 |     "ackName": "SERVER",
+2025-07-14 16:43:36.949 |     "vCards": [],
+2025-07-14 16:43:36.949 |     "_data": {
+2025-07-14 16:43:36.949 |       "id": {
+2025-07-14 16:43:36.949 |         "fromMe": false,
+2025-07-14 16:43:36.949 |         "remote": "51921281892@c.us",
+2025-07-14 16:43:36.949 |         "id": "CAE469204DD999BAA42EC016FA275DFB",
+2025-07-14 16:43:36.949 |         "_serialized": "false_51921281892@c.us_CAE469204DD999BAA42EC016FA275DFB"
+2025-07-14 16:43:36.949 |       },
+2025-07-14 16:43:36.949 |       "viewed": false,
+2025-07-14 16:43:36.949 |       "body": "Qu\u00e9 fue",
+2025-07-14 16:43:36.949 |       "type": "chat",
+2025-07-14 16:43:36.949 |       "t": 1752529416,
+2025-07-14 16:43:36.949 |       "notifyName": "Jim Padilla",
+2025-07-14 16:43:36.949 |       "from": "51921281892@c.us",
+2025-07-14 16:43:36.949 |       "to": "51961001307@c.us",
+2025-07-14 16:43:36.949 |       "ack": 1,
+2025-07-14 16:43:36.949 |       "invis": false,
+2025-07-14 16:43:36.949 |       "isNewMsg": true,
+2025-07-14 16:43:36.949 |       "star": false,
+2025-07-14 16:43:36.949 |       "kicNotified": false,
+2025-07-14 16:43:36.949 |       "recvFresh": true,
+2025-07-14 16:43:36.949 |       "isFromTemplate": false,
+2025-07-14 16:43:36.949 |       "pollInvalidated": false,
+2025-07-14 16:43:36.949 |       "isSentCagPollCreation": false,
+2025-07-14 16:43:36.949 |       "latestEditMsgKey": null,
+2025-07-14 16:43:36.949 |       "latestEditSenderTimestampMs": null,
+2025-07-14 16:43:36.949 |       "mentionedJidList": [],
+2025-07-14 16:43:36.949 |       "groupMentions": [],
+2025-07-14 16:43:36.949 |       "isEventCanceled": false,
+2025-07-14 16:43:36.949 |       "eventInvalidated": false,
+2025-07-14 16:43:36.949 |       "isVcardOverMmsDocument": false,
+2025-07-14 16:43:36.949 |       "isForwarded": false,
+2025-07-14 16:43:36.949 |       "isQuestion": false,
+2025-07-14 16:43:36.949 |       "hasReaction": false,
+2025-07-14 16:43:36.949 |       "viewMode": "VISIBLE",
+2025-07-14 16:43:36.949 |       "messageSecret": {
+2025-07-14 16:43:36.949 |         "0": 151,
+2025-07-14 16:43:36.949 |         "1": 165,
+2025-07-14 16:43:36.949 |         "2": 194,
+2025-07-14 16:43:36.949 |         "3": 250,
+2025-07-14 16:43:36.949 |         "4": 46,
+2025-07-14 16:43:36.949 |         "5": 143,
+2025-07-14 16:43:36.949 |         "6": 236,
+2025-07-14 16:43:36.949 |         "7": 115,
+2025-07-14 16:43:36.949 |         "8": 208,
+2025-07-14 16:43:36.949 |         "9": 226,
+2025-07-14 16:43:36.949 |         "10": 154,
+2025-07-14 16:43:36.949 |         "11": 204,
+2025-07-14 16:43:36.949 |         "12": 61,
+2025-07-14 16:43:36.949 |         "13": 59,
+2025-07-14 16:43:36.949 |         "14": 84,
+2025-07-14 16:43:36.949 |         "15": 35,
+2025-07-14 16:43:36.949 |         "16": 116,
+2025-07-14 16:43:36.949 |         "17": 156,
+2025-07-14 16:43:36.949 |         "18": 40,
+2025-07-14 16:43:36.949 |         "19": 120,
+2025-07-14 16:43:36.949 |         "20": 250,
+2025-07-14 16:43:36.949 |         "21": 181,
+2025-07-14 16:43:36.949 |         "22": 40,
+2025-07-14 16:43:36.949 |         "23": 183,
+2025-07-14 16:43:36.949 |         "24": 207,
+2025-07-14 16:43:36.949 |         "25": 156,
+2025-07-14 16:43:36.949 |         "26": 172,
+2025-07-14 16:43:36.949 |         "27": 252,
+2025-07-14 16:43:36.949 |         "28": 150,
+2025-07-14 16:43:36.949 |         "29": 99,
+2025-07-14 16:43:36.949 |         "30": 51,
+2025-07-14 16:43:36.949 |         "31": 86
+2025-07-14 16:43:36.949 |       },
+2025-07-14 16:43:36.949 |       "productHeaderImageRejected": false,
+2025-07-14 16:43:36.949 |       "lastPlaybackProgress": 0,
+2025-07-14 16:43:36.949 |       "isDynamicReplyButtonsMsg": false,
+2025-07-14 16:43:36.949 |       "isCarouselCard": false,
+2025-07-14 16:43:36.949 |       "parentMsgId": null,
+2025-07-14 16:43:36.949 |       "callSilenceReason": null,
+2025-07-14 16:43:36.949 |       "isVideoCall": false,
+2025-07-14 16:43:36.949 |       "callDuration": null,
+2025-07-14 16:43:36.949 |       "callCreator": null,
+2025-07-14 16:43:36.949 |       "callParticipants": null,
+2025-07-14 16:43:36.949 |       "isCallLink": null,
+2025-07-14 16:43:36.949 |       "callLinkToken": null,
+2025-07-14 16:43:36.949 |       "isMdHistoryMsg": false,
+2025-07-14 16:43:36.949 |       "stickerSentTs": 0,
+2025-07-14 16:43:36.949 |       "isAvatar": false,
+2025-07-14 16:43:36.949 |       "lastUpdateFromServerTs": 0,
+2025-07-14 16:43:36.949 |       "invokedBotWid": null,
+2025-07-14 16:43:36.949 |       "bizBotType": null,
+2025-07-14 16:43:36.949 |       "botResponseTargetId": null,
+2025-07-14 16:43:36.949 |       "botPluginType": null,
+2025-07-14 16:43:36.949 |       "botPluginReferenceIndex": null,
+2025-07-14 16:43:36.949 |       "botPluginSearchProvider": null,
+2025-07-14 16:43:36.949 |       "botPluginSearchUrl": null,
+2025-07-14 16:43:36.949 |       "botPluginSearchQuery": null,
+2025-07-14 16:43:36.949 |       "botPluginMaybeParent": false,
+2025-07-14 16:43:36.949 |       "botReelPluginThumbnailCdnUrl": null,
+2025-07-14 16:43:36.949 |       "botMessageDisclaimerText": null,
+2025-07-14 16:43:36.949 |       "botMsgBodyType": null,
+2025-07-14 16:43:36.949 |       "reportingTokenInfo": {
+2025-07-14 16:43:36.949 |         "reportingToken": {
+2025-07-14 16:43:36.949 |           "0": 145,
+2025-07-14 16:43:36.949 |           "1": 51,
+2025-07-14 16:43:36.949 |           "2": 191,
+2025-07-14 16:43:36.949 |           "3": 249,
+2025-07-14 16:43:36.949 |           "4": 65,
+2025-07-14 16:43:36.949 |           "5": 102,
+2025-07-14 16:43:36.949 |           "6": 18,
+2025-07-14 16:43:36.949 |           "7": 38,
+2025-07-14 16:43:36.949 |           "8": 47,
+2025-07-14 16:43:36.949 |           "9": 97,
+2025-07-14 16:43:36.949 |           "10": 128,
+2025-07-14 16:43:36.949 |           "11": 153,
+2025-07-14 16:43:36.949 |           "12": 235,
+2025-07-14 16:43:36.949 |           "13": 32,
+2025-07-14 16:43:36.949 |           "14": 49,
+2025-07-14 16:43:36.949 |           "15": 238
+2025-07-14 16:43:36.949 |         },
+2025-07-14 16:43:36.949 |         "version": 2,
+2025-07-14 16:43:36.949 |         "reportingTag": {
+2025-07-14 16:43:36.949 |           "0": 1,
+2025-07-14 16:43:36.949 |           "1": 8,
+2025-07-14 16:43:36.949 |           "2": 226,
+2025-07-14 16:43:36.949 |           "3": 191,
+2025-07-14 16:43:36.949 |           "4": 132,
+2025-07-14 16:43:36.949 |           "5": 140,
+2025-07-14 16:43:36.949 |           "6": 16,
+2025-07-14 16:43:36.949 |           "7": 1,
+2025-07-14 16:43:36.949 |           "8": 181,
+2025-07-14 16:43:36.949 |           "9": 132,
+2025-07-14 16:43:36.949 |           "10": 3,
+2025-07-14 16:43:36.949 |           "11": 163,
+2025-07-14 16:43:36.949 |           "12": 248,
+2025-07-14 16:43:36.949 |           "13": 192,
+2025-07-14 16:43:36.949 |           "14": 92,
+2025-07-14 16:43:36.949 |           "15": 232,
+2025-07-14 16:43:36.949 |           "16": 217,
+2025-07-14 16:43:36.949 |           "17": 223,
+2025-07-14 16:43:36.949 |           "18": 116,
+2025-07-14 16:43:36.949 |           "19": 8
+2025-07-14 16:43:36.949 |         }
+2025-07-14 16:43:36.949 |       },
+2025-07-14 16:43:36.949 |       "requiresDirectConnection": null,
+2025-07-14 16:43:36.949 |       "bizContentPlaceholderType": null,
+2025-07-14 16:43:36.949 |       "hostedBizEncStateMismatch": false,
+2025-07-14 16:43:36.949 |       "senderOrRecipientAccountTypeHosted": false,
+2025-07-14 16:43:36.949 |       "placeholderCreatedWhenAccountIsHosted": false,
+2025-07-14 16:43:36.949 |       "links": []
+2025-07-14 16:43:36.949 |     }
+2025-07-14 16:43:36.949 |   },
+2025-07-14 16:43:36.949 |   "engine": "WEBJS",
+2025-07-14 16:43:36.949 |   "environment": {
+2025-07-14 16:43:36.949 |     "version": "2025.2.1",
+2025-07-14 16:43:36.949 |     "engine": "WEBJS",
+2025-07-14 16:43:36.949 |     "tier": "CORE",
+2025-07-14 16:43:36.949 |     "browser": "/usr/bin/chromium"
+2025-07-14 16:43:36.949 |   }
+2025-07-14 16:43:36.949 | }
+2025-07-14 16:43:36.949 | 2025-07-14 21:43:36,948 - [INFO] - Webhook validado y encolado para procesamiento.
+2025-07-14 16:43:36.950 | INFO:     172.18.0.1:40836 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:43:36.950 | 2025-07-14 21:43:36,950 - [INFO] - --- [BG-TASK] Iniciando procesado para la instancia 'wa_instance_1_477bdd38' ---
+2025-07-14 16:43:36.950 | 2025-07-14 21:43:36,950 - [INFO] - Datos (ENTRANTE) -> Contacto: Jim Padilla (51921281892), Mensaje: 'Qué fue'
+2025-07-14 16:43:37.018 | 2025-07-14 21:43:37,018 - [INFO] - GHL API Call (get_or_create_contact): Intentando crear/obtener contacto para 51921281892
+2025-07-14 16:43:37.402 | 2025-07-14 21:43:37,401 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/conversations/messages "HTTP/1.1 201 Created"
+2025-07-14 16:43:37.403 | 2025-07-14 21:43:37,402 - [INFO] - GHL API Response: Mensaje para K1ZtJZXHtJlZqUJBBZsa añadido exitosamente.
+2025-07-14 16:43:37.403 | 2025-07-14 21:43:37,403 - [INFO] - ? ¡ÉXITO TOTAL! Mensaje (ENTRANTE) del contacto K1ZtJZXHtJlZqUJBBZsa procesado.
+2025-07-14 16:43:37.403 | 2025-07-14 21:43:37,403 - [INFO] - ==================== FIN DE TAREA PARA 'wa_instance_1_477bdd38' ====================
+2025-07-14 16:43:37.665 | 2025-07-14 21:43:37,664 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/contacts/ "HTTP/1.1 400 Bad Request"
+2025-07-14 16:43:37.666 | 2025-07-14 21:43:37,665 - [INFO] - Contacto ya existente. ID recuperado del error: K1ZtJZXHtJlZqUJBBZsa
+2025-07-14 16:43:37.666 | 2025-07-14 21:43:37,666 - [INFO] - Contacto en GHL listo. ID: K1ZtJZXHtJlZqUJBBZsa. Procediendo a añadir el mensaje...
+2025-07-14 16:43:37.698 | 2025-07-14 21:43:37,697 - [INFO] - Buscando conversationId para el contacto: K1ZtJZXHtJlZqUJBBZsa
+2025-07-14 16:43:38.469 | 2025-07-14 21:43:38,468 - [INFO] - HTTP Request: GET https://services.leadconnectorhq.com/conversations/search?contactId=K1ZtJZXHtJlZqUJBBZsa "HTTP/1.1 200 OK"
+2025-07-14 16:43:38.471 | 2025-07-14 21:43:38,470 - [WARNING] - No se encontró conversationId para K1ZtJZXHtJlZqUJBBZsa. Se usará el contactId como fallback.
+2025-07-14 16:43:38.506 | 2025-07-14 21:43:38,505 - [INFO] - GHL API Call (add_message): Añadiendo mensaje con payload: {"type": "WhatsApp", "contactId": "K1ZtJZXHtJlZqUJBBZsa", "conversationId": "K1ZtJZXHtJlZqUJBBZsa", "message": "Qu\u00e9 fue", "direction": "inbound"}
+2025-07-14 16:43:39.567 | 2025-07-14 21:43:39,566 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/conversations/messages "HTTP/1.1 201 Created"
+2025-07-14 16:43:39.567 | 2025-07-14 21:43:39,567 - [INFO] - GHL API Response: Mensaje para K1ZtJZXHtJlZqUJBBZsa añadido exitosamente.
+2025-07-14 16:43:39.568 | 2025-07-14 21:43:39,567 - [INFO] - ? ¡ÉXITO TOTAL! Mensaje (ENTRANTE) del contacto K1ZtJZXHtJlZqUJBBZsa procesado.
+2025-07-14 16:43:39.568 | 2025-07-14 21:43:39,567 - [INFO] - ==================== FIN DE TAREA PARA 'wa_instance_1_477bdd38' ====================
+2025-07-14 16:43:40.046 | INFO:     172.18.0.1:40836 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:43:40.071 | 2025-07-14 21:43:40,070 - [INFO] - ==================== INICIO DE WEBHOOK DE CHAT ====================
+2025-07-14 16:43:40.071 | 2025-07-14 21:43:40,070 - [INFO] - Webhook de chat válido recibido para la instancia 'wa_instance_1_477bdd38'
+2025-07-14 16:43:40.071 | 2025-07-14 21:43:40,071 - [INFO] - Payload crudo procesado:
+2025-07-14 16:43:40.071 | {
+2025-07-14 16:43:40.071 |   "id": "evt_01k05e9fs1nh1qwkvf7pb0tsse",
+2025-07-14 16:43:40.071 |   "event": "message",
+2025-07-14 16:43:40.071 |   "session": "default",
+2025-07-14 16:43:40.071 |   "me": {
+2025-07-14 16:43:40.071 |     "id": "51961001307@c.us",
+2025-07-14 16:43:40.071 |     "pushName": "Sebastian Mafaldo"
+2025-07-14 16:43:40.071 |   },
+2025-07-14 16:43:40.071 |   "payload": {
+2025-07-14 16:43:40.071 |     "id": "false_51922726164@c.us_3F9BECBD0D02E0F0DD3E",
+2025-07-14 16:43:40.071 |     "timestamp": 1752529419,
+2025-07-14 16:43:40.071 |     "from": "51922726164@c.us",
+2025-07-14 16:43:40.071 |     "fromMe": false,
+2025-07-14 16:43:40.071 |     "to": "51961001307@c.us",
+2025-07-14 16:43:40.071 |     "body": "si bebebee",
+2025-07-14 16:43:40.071 |     "hasMedia": false,
+2025-07-14 16:43:40.071 |     "ack": 1,
+2025-07-14 16:43:40.071 |     "ackName": "SERVER",
+2025-07-14 16:43:40.071 |     "vCards": [],
+2025-07-14 16:43:40.071 |     "_data": {
+2025-07-14 16:43:40.071 |       "id": {
+2025-07-14 16:43:40.071 |         "fromMe": false,
+2025-07-14 16:43:40.071 |         "remote": "51922726164@c.us",
+2025-07-14 16:43:40.071 |         "id": "3F9BECBD0D02E0F0DD3E",
+2025-07-14 16:43:40.071 |         "_serialized": "false_51922726164@c.us_3F9BECBD0D02E0F0DD3E"
+2025-07-14 16:43:40.071 |       },
+2025-07-14 16:43:40.071 |       "viewed": false,
+2025-07-14 16:43:40.071 |       "body": "si bebebee",
+2025-07-14 16:43:40.071 |       "type": "chat",
+2025-07-14 16:43:40.071 |       "t": 1752529419,
+2025-07-14 16:43:40.071 |       "notifyName": "Heidi Celeste",
+2025-07-14 16:43:40.071 |       "from": "51922726164@c.us",
+2025-07-14 16:43:40.071 |       "to": "51961001307@c.us",
+2025-07-14 16:43:40.071 |       "ack": 1,
+2025-07-14 16:43:40.071 |       "invis": false,
+2025-07-14 16:43:40.071 |       "isNewMsg": true,
+2025-07-14 16:43:40.071 |       "star": false,
+2025-07-14 16:43:40.071 |       "kicNotified": false,
+2025-07-14 16:43:40.071 |       "recvFresh": true,
+2025-07-14 16:43:40.071 |       "isFromTemplate": false,
+2025-07-14 16:43:40.071 |       "thumbnail": "",
+2025-07-14 16:43:40.071 |       "pollInvalidated": false,
+2025-07-14 16:43:40.071 |       "isSentCagPollCreation": false,
+2025-07-14 16:43:40.071 |       "latestEditMsgKey": null,
+2025-07-14 16:43:40.071 |       "latestEditSenderTimestampMs": null,
+2025-07-14 16:43:40.071 |       "mentionedJidList": [],
+2025-07-14 16:43:40.071 |       "groupMentions": [],
+2025-07-14 16:43:40.071 |       "isEventCanceled": false,
+2025-07-14 16:43:40.071 |       "eventInvalidated": false,
+2025-07-14 16:43:40.071 |       "isVcardOverMmsDocument": false,
+2025-07-14 16:43:40.071 |       "hasReaction": false,
+2025-07-14 16:43:40.071 |       "ephemeralDuration": 0,
+2025-07-14 16:43:40.071 |       "ephemeralSettingTimestamp": 0,
+2025-07-14 16:43:40.071 |       "disappearingModeInitiator": "chat",
+2025-07-14 16:43:40.071 |       "disappearingModeTrigger": "chat_settings",
+2025-07-14 16:43:40.071 |       "viewMode": "VISIBLE",
+2025-07-14 16:43:40.071 |       "productHeaderImageRejected": false,
+2025-07-14 16:43:40.071 |       "lastPlaybackProgress": 0,
+2025-07-14 16:43:40.071 |       "isDynamicReplyButtonsMsg": false,
+2025-07-14 16:43:40.071 |       "isCarouselCard": false,
+2025-07-14 16:43:40.071 |       "parentMsgId": null,
+2025-07-14 16:43:40.071 |       "callSilenceReason": null,
+2025-07-14 16:43:40.071 |       "isVideoCall": false,
+2025-07-14 16:43:40.071 |       "callDuration": null,
+2025-07-14 16:43:40.071 |       "callCreator": null,
+2025-07-14 16:43:40.071 |       "callParticipants": null,
+2025-07-14 16:43:40.071 |       "isCallLink": null,
+2025-07-14 16:43:40.071 |       "callLinkToken": null,
+2025-07-14 16:43:40.071 |       "isMdHistoryMsg": false,
+2025-07-14 16:43:40.071 |       "stickerSentTs": 0,
+2025-07-14 16:43:40.071 |       "isAvatar": false,
+2025-07-14 16:43:40.071 |       "lastUpdateFromServerTs": 0,
+2025-07-14 16:43:40.071 |       "invokedBotWid": null,
+2025-07-14 16:43:40.071 |       "bizBotType": null,
+2025-07-14 16:43:40.071 |       "botResponseTargetId": null,
+2025-07-14 16:43:40.071 |       "botPluginType": null,
+2025-07-14 16:43:40.071 |       "botPluginReferenceIndex": null,
+2025-07-14 16:43:40.071 |       "botPluginSearchProvider": null,
+2025-07-14 16:43:40.071 |       "botPluginSearchUrl": null,
+2025-07-14 16:43:40.071 |       "botPluginSearchQuery": null,
+2025-07-14 16:43:40.071 |       "botPluginMaybeParent": false,
+2025-07-14 16:43:40.071 |       "botReelPluginThumbnailCdnUrl": null,
+2025-07-14 16:43:40.071 |       "botMessageDisclaimerText": null,
+2025-07-14 16:43:40.071 |       "botMsgBodyType": null,
+2025-07-14 16:43:40.071 |       "reportingTokenInfo": {
+2025-07-14 16:43:40.071 |         "reportingTag": {
+2025-07-14 16:43:40.071 |           "0": 1,
+2025-07-14 16:43:40.071 |           "1": 8,
+2025-07-14 16:43:40.071 |           "2": 228,
+2025-07-14 16:43:40.071 |           "3": 222,
+2025-07-14 16:43:40.071 |           "4": 174,
+2025-07-14 16:43:40.071 |           "5": 121,
+2025-07-14 16:43:40.071 |           "6": 55,
+2025-07-14 16:43:40.071 |           "7": 169,
+2025-07-14 16:43:40.071 |           "8": 124,
+2025-07-14 16:43:40.071 |           "9": 35,
+2025-07-14 16:43:40.071 |           "10": 132,
+2025-07-14 16:43:40.071 |           "11": 48,
+2025-07-14 16:43:40.071 |           "12": 244,
+2025-07-14 16:43:40.071 |           "13": 251,
+2025-07-14 16:43:40.071 |           "14": 87,
+2025-07-14 16:43:40.071 |           "15": 155
+2025-07-14 16:43:40.071 |         }
+2025-07-14 16:43:40.071 |       },
+2025-07-14 16:43:40.071 |       "requiresDirectConnection": null,
+2025-07-14 16:43:40.071 |       "bizContentPlaceholderType": null,
+2025-07-14 16:43:40.071 |       "hostedBizEncStateMismatch": false,
+2025-07-14 16:43:40.071 |       "senderOrRecipientAccountTypeHosted": false,
+2025-07-14 16:43:40.071 |       "placeholderCreatedWhenAccountIsHosted": false,
+2025-07-14 16:43:40.071 |       "links": []
+2025-07-14 16:43:40.071 |     }
+2025-07-14 16:43:40.071 |   },
+2025-07-14 16:43:40.071 |   "engine": "WEBJS",
+2025-07-14 16:43:40.071 |   "environment": {
+2025-07-14 16:43:40.071 |     "version": "2025.2.1",
+2025-07-14 16:43:40.071 |     "engine": "WEBJS",
+2025-07-14 16:43:40.071 |     "tier": "CORE",
+2025-07-14 16:43:40.071 |     "browser": "/usr/bin/chromium"
+2025-07-14 16:43:40.071 |   }
+2025-07-14 16:43:40.071 | }
+2025-07-14 16:43:40.071 | 2025-07-14 21:43:40,071 - [INFO] - Webhook validado y encolado para procesamiento.
+2025-07-14 16:43:40.072 | INFO:     172.18.0.1:40836 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:43:40.072 | 2025-07-14 21:43:40,072 - [INFO] - --- [BG-TASK] Iniciando procesado para la instancia 'wa_instance_1_477bdd38' ---
+2025-07-14 16:43:40.072 | 2025-07-14 21:43:40,072 - [INFO] - Datos (ENTRANTE) -> Contacto: Heidi Celeste (51922726164), Mensaje: 'si bebebee'
+2025-07-14 16:43:40.132 | 2025-07-14 21:43:40,132 - [INFO] - GHL API Call (get_or_create_contact): Intentando crear/obtener contacto para 51922726164
+2025-07-14 16:43:40.630 | 2025-07-14 21:43:40,629 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/contacts/ "HTTP/1.1 400 Bad Request"
+2025-07-14 16:43:40.631 | 2025-07-14 21:43:40,631 - [INFO] - Contacto ya existente. ID recuperado del error: ZhDEfMqaL6Asv7hLZ8uc
+2025-07-14 16:43:40.632 | 2025-07-14 21:43:40,631 - [INFO] - Contacto en GHL listo. ID: ZhDEfMqaL6Asv7hLZ8uc. Procediendo a añadir el mensaje...
+2025-07-14 16:43:40.682 | 2025-07-14 21:43:40,682 - [INFO] - Buscando conversationId para el contacto: ZhDEfMqaL6Asv7hLZ8uc
+2025-07-14 16:43:40.687 | 2025-07-14 21:43:40,686 - [INFO] - ==================== INICIO DE WEBHOOK DE CHAT ====================
+2025-07-14 16:43:40.687 | 2025-07-14 21:43:40,687 - [INFO] - Webhook de chat válido recibido para la instancia 'wa_instance_1_477bdd38'
+2025-07-14 16:43:40.697 | 2025-07-14 21:43:40,697 - [INFO] - Payload crudo procesado:
+2025-07-14 16:43:40.697 | {
+2025-07-14 16:43:40.697 |   "id": "evt_01k05e9gca69m32nn46gc81bqf",
+2025-07-14 16:43:40.697 |   "event": "message",
+2025-07-14 16:43:40.697 |   "session": "default",
+2025-07-14 16:43:40.697 |   "me": {
+2025-07-14 16:43:40.697 |     "id": "51961001307@c.us",
+2025-07-14 16:43:40.697 |     "pushName": "Sebastian Mafaldo"
+2025-07-14 16:43:40.697 |   },
+2025-07-14 16:43:40.697 |   "payload": {
+2025-07-14 16:43:40.697 |     "id": "false_51922726164@c.us_3FB2D9A80C4498655AA6",
+2025-07-14 16:43:40.697 |     "timestamp": 1752529420,
+2025-07-14 16:43:40.697 |     "from": "51922726164@c.us",
+2025-07-14 16:43:40.697 |     "fromMe": false,
+2025-07-14 16:43:40.697 |     "to": "51961001307@c.us",
+2025-07-14 16:43:40.697 |     "body": "jajajaja",
+2025-07-14 16:43:40.697 |     "hasMedia": false,
+2025-07-14 16:43:40.697 |     "ack": 1,
+2025-07-14 16:43:40.697 |     "ackName": "SERVER",
+2025-07-14 16:43:40.697 |     "vCards": [],
+2025-07-14 16:43:40.697 |     "_data": {
+2025-07-14 16:43:40.697 |       "id": {
+2025-07-14 16:43:40.697 |         "fromMe": false,
+2025-07-14 16:43:40.697 |         "remote": "51922726164@c.us",
+2025-07-14 16:43:40.697 |         "id": "3FB2D9A80C4498655AA6",
+2025-07-14 16:43:40.697 |         "_serialized": "false_51922726164@c.us_3FB2D9A80C4498655AA6"
+2025-07-14 16:43:40.697 |       },
+2025-07-14 16:43:40.697 |       "viewed": false,
+2025-07-14 16:43:40.697 |       "body": "jajajaja",
+2025-07-14 16:43:40.697 |       "type": "chat",
+2025-07-14 16:43:40.697 |       "t": 1752529420,
+2025-07-14 16:43:40.697 |       "notifyName": "Heidi Celeste",
+2025-07-14 16:43:40.697 |       "from": "51922726164@c.us",
+2025-07-14 16:43:40.697 |       "to": "51961001307@c.us",
+2025-07-14 16:43:40.697 |       "ack": 1,
+2025-07-14 16:43:40.697 |       "invis": false,
+2025-07-14 16:43:40.697 |       "isNewMsg": true,
+2025-07-14 16:43:40.697 |       "star": false,
+2025-07-14 16:43:40.697 |       "kicNotified": false,
+2025-07-14 16:43:40.697 |       "recvFresh": true,
+2025-07-14 16:43:40.697 |       "isFromTemplate": false,
+2025-07-14 16:43:40.697 |       "thumbnail": "",
+2025-07-14 16:43:40.697 |       "pollInvalidated": false,
+2025-07-14 16:43:40.697 |       "isSentCagPollCreation": false,
+2025-07-14 16:43:40.697 |       "latestEditMsgKey": null,
+2025-07-14 16:43:40.697 |       "latestEditSenderTimestampMs": null,
+2025-07-14 16:43:40.697 |       "mentionedJidList": [],
+2025-07-14 16:43:40.697 |       "groupMentions": [],
+2025-07-14 16:43:40.697 |       "isEventCanceled": false,
+2025-07-14 16:43:40.698 |       "eventInvalidated": false,
+2025-07-14 16:43:40.698 |       "isVcardOverMmsDocument": false,
+2025-07-14 16:43:40.698 |       "hasReaction": false,
+2025-07-14 16:43:40.698 |       "ephemeralDuration": 0,
+2025-07-14 16:43:40.698 |       "ephemeralSettingTimestamp": 0,
+2025-07-14 16:43:40.698 |       "disappearingModeInitiator": "chat",
+2025-07-14 16:43:40.698 |       "disappearingModeTrigger": "chat_settings",
+2025-07-14 16:43:40.698 |       "viewMode": "VISIBLE",
+2025-07-14 16:43:40.698 |       "productHeaderImageRejected": false,
+2025-07-14 16:43:40.698 |       "lastPlaybackProgress": 0,
+2025-07-14 16:43:40.698 |       "isDynamicReplyButtonsMsg": false,
+2025-07-14 16:43:40.698 |       "isCarouselCard": false,
+2025-07-14 16:43:40.698 |       "parentMsgId": null,
+2025-07-14 16:43:40.698 |       "callSilenceReason": null,
+2025-07-14 16:43:40.698 |       "isVideoCall": false,
+2025-07-14 16:43:40.698 |       "callDuration": null,
+2025-07-14 16:43:40.698 |       "callCreator": null,
+2025-07-14 16:43:40.698 |       "callParticipants": null,
+2025-07-14 16:43:40.698 |       "isCallLink": null,
+2025-07-14 16:43:40.698 |       "callLinkToken": null,
+2025-07-14 16:43:40.698 |       "isMdHistoryMsg": false,
+2025-07-14 16:43:40.698 |       "stickerSentTs": 0,
+2025-07-14 16:43:40.698 |       "isAvatar": false,
+2025-07-14 16:43:40.698 |       "lastUpdateFromServerTs": 0,
+2025-07-14 16:43:40.698 |       "invokedBotWid": null,
+2025-07-14 16:43:40.698 |       "bizBotType": null,
+2025-07-14 16:43:40.698 |       "botResponseTargetId": null,
+2025-07-14 16:43:40.698 |       "botPluginType": null,
+2025-07-14 16:43:40.698 |       "botPluginReferenceIndex": null,
+2025-07-14 16:43:40.698 |       "botPluginSearchProvider": null,
+2025-07-14 16:43:40.698 |       "botPluginSearchUrl": null,
+2025-07-14 16:43:40.698 |       "botPluginSearchQuery": null,
+2025-07-14 16:43:40.698 |       "botPluginMaybeParent": false,
+2025-07-14 16:43:40.698 |       "botReelPluginThumbnailCdnUrl": null,
+2025-07-14 16:43:40.698 |       "botMessageDisclaimerText": null,
+2025-07-14 16:43:40.698 |       "botMsgBodyType": null,
+2025-07-14 16:43:40.698 |       "reportingTokenInfo": {
+2025-07-14 16:43:40.698 |         "reportingTag": {
+2025-07-14 16:43:40.698 |           "0": 1,
+2025-07-14 16:43:40.698 |           "1": 8,
+2025-07-14 16:43:40.698 |           "2": 170,
+2025-07-14 16:43:40.698 |           "3": 56,
+2025-07-14 16:43:40.698 |           "4": 39,
+2025-07-14 16:43:40.698 |           "5": 3,
+2025-07-14 16:43:40.698 |           "6": 16,
+2025-07-14 16:43:40.698 |           "7": 80,
+2025-07-14 16:43:40.698 |           "8": 162,
+2025-07-14 16:43:40.698 |           "9": 106,
+2025-07-14 16:43:40.698 |           "10": 191,
+2025-07-14 16:43:40.698 |           "11": 89,
+2025-07-14 16:43:40.698 |           "12": 54,
+2025-07-14 16:43:40.698 |           "13": 249,
+2025-07-14 16:43:40.698 |           "14": 19,
+2025-07-14 16:43:40.698 |           "15": 173
+2025-07-14 16:43:40.698 |         }
+2025-07-14 16:43:40.698 |       },
+2025-07-14 16:43:40.698 |       "requiresDirectConnection": null,
+2025-07-14 16:43:40.698 |       "bizContentPlaceholderType": null,
+2025-07-14 16:43:40.698 |       "hostedBizEncStateMismatch": false,
+2025-07-14 16:43:40.698 |       "senderOrRecipientAccountTypeHosted": false,
+2025-07-14 16:43:40.698 |       "placeholderCreatedWhenAccountIsHosted": false,
+2025-07-14 16:43:40.698 |       "links": []
+2025-07-14 16:43:40.698 |     }
+2025-07-14 16:43:40.698 |   },
+2025-07-14 16:43:40.698 |   "engine": "WEBJS",
+2025-07-14 16:43:40.698 |   "environment": {
+2025-07-14 16:43:40.698 |     "version": "2025.2.1",
+2025-07-14 16:43:40.698 |     "engine": "WEBJS",
+2025-07-14 16:43:40.698 |     "tier": "CORE",
+2025-07-14 16:43:40.698 |     "browser": "/usr/bin/chromium"
+2025-07-14 16:43:40.698 |   }
+2025-07-14 16:43:40.698 | }
+2025-07-14 16:43:40.698 | 2025-07-14 21:43:40,697 - [INFO] - Webhook validado y encolado para procesamiento.
+2025-07-14 16:43:40.703 | INFO:     172.18.0.1:40836 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:43:40.703 | 2025-07-14 21:43:40,703 - [INFO] - --- [BG-TASK] Iniciando procesado para la instancia 'wa_instance_1_477bdd38' ---
+2025-07-14 16:43:40.703 | 2025-07-14 21:43:40,703 - [INFO] - Datos (ENTRANTE) -> Contacto: Heidi Celeste (51922726164), Mensaje: 'jajajaja'
+2025-07-14 16:43:40.746 | 2025-07-14 21:43:40,746 - [INFO] - GHL API Call (get_or_create_contact): Intentando crear/obtener contacto para 51922726164
+2025-07-14 16:43:41.268 | 2025-07-14 21:43:41,268 - [INFO] - HTTP Request: GET https://services.leadconnectorhq.com/conversations/search?contactId=ZhDEfMqaL6Asv7hLZ8uc "HTTP/1.1 200 OK"
+2025-07-14 16:43:41.270 | 2025-07-14 21:43:41,269 - [INFO] - ConversationId encontrado: qL3AslbEIdywrbsIvdP9
+2025-07-14 16:43:41.315 | 2025-07-14 21:43:41,315 - [INFO] - GHL API Call (add_message): Añadiendo mensaje con payload: {"type": "WhatsApp", "contactId": "ZhDEfMqaL6Asv7hLZ8uc", "conversationId": "qL3AslbEIdywrbsIvdP9", "message": "si bebebee", "direction": "inbound"}
+2025-07-14 16:43:41.317 | 2025-07-14 21:43:41,317 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/contacts/ "HTTP/1.1 400 Bad Request"
+2025-07-14 16:43:41.318 | 2025-07-14 21:43:41,318 - [INFO] - Contacto ya existente. ID recuperado del error: ZhDEfMqaL6Asv7hLZ8uc
+2025-07-14 16:43:41.318 | 2025-07-14 21:43:41,318 - [INFO] - Contacto en GHL listo. ID: ZhDEfMqaL6Asv7hLZ8uc. Procediendo a añadir el mensaje...
+2025-07-14 16:43:41.355 | 2025-07-14 21:43:41,354 - [INFO] - Buscando conversationId para el contacto: ZhDEfMqaL6Asv7hLZ8uc
+2025-07-14 16:43:41.907 | 2025-07-14 21:43:41,906 - [INFO] - HTTP Request: GET https://services.leadconnectorhq.com/conversations/search?contactId=ZhDEfMqaL6Asv7hLZ8uc "HTTP/1.1 200 OK"
+2025-07-14 16:43:41.908 | 2025-07-14 21:43:41,908 - [INFO] - ConversationId encontrado: qL3AslbEIdywrbsIvdP9
+2025-07-14 16:43:41.949 | 2025-07-14 21:43:41,948 - [INFO] - GHL API Call (add_message): Añadiendo mensaje con payload: {"type": "WhatsApp", "contactId": "ZhDEfMqaL6Asv7hLZ8uc", "conversationId": "qL3AslbEIdywrbsIvdP9", "message": "jajajaja", "direction": "inbound"}
+2025-07-14 16:43:42.412 | 2025-07-14 21:43:42,411 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/conversations/messages "HTTP/1.1 201 Created"
+2025-07-14 16:43:42.413 | 2025-07-14 21:43:42,412 - [INFO] - GHL API Response: Mensaje para ZhDEfMqaL6Asv7hLZ8uc añadido exitosamente.
+2025-07-14 16:43:42.413 | 2025-07-14 21:43:42,413 - [INFO] - ? ¡ÉXITO TOTAL! Mensaje (ENTRANTE) del contacto ZhDEfMqaL6Asv7hLZ8uc procesado.
+2025-07-14 16:43:42.413 | 2025-07-14 21:43:42,413 - [INFO] - ==================== FIN DE TAREA PARA 'wa_instance_1_477bdd38' ====================
+2025-07-14 16:43:43.001 | 2025-07-14 21:43:43,000 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/conversations/messages "HTTP/1.1 201 Created"
+2025-07-14 16:43:43.002 | 2025-07-14 21:43:43,001 - [INFO] - GHL API Response: Mensaje para ZhDEfMqaL6Asv7hLZ8uc añadido exitosamente.
+2025-07-14 16:43:43.002 | 2025-07-14 21:43:43,002 - [INFO] - ? ¡ÉXITO TOTAL! Mensaje (ENTRANTE) del contacto ZhDEfMqaL6Asv7hLZ8uc procesado.
+2025-07-14 16:43:43.002 | 2025-07-14 21:43:43,002 - [INFO] - ==================== FIN DE TAREA PARA 'wa_instance_1_477bdd38' ====================
+2025-07-14 16:43:45.776 | 2025-07-14 21:43:45,775 - [INFO] - ==================== INICIO DE WEBHOOK DE CHAT ====================
+2025-07-14 16:43:45.776 | 2025-07-14 21:43:45,775 - [INFO] - Webhook de chat válido recibido para la instancia 'wa_instance_1_477bdd38'
+2025-07-14 16:43:45.776 | 2025-07-14 21:43:45,776 - [INFO] - Payload crudo procesado:
+2025-07-14 16:43:45.776 | {
+2025-07-14 16:43:45.776 |   "id": "evt_01k05e9nb6qhv47gdf7jxyeyve",
+2025-07-14 16:43:45.776 |   "event": "message",
+2025-07-14 16:43:45.776 |   "session": "default",
+2025-07-14 16:43:45.776 |   "me": {
+2025-07-14 16:43:45.776 |     "id": "51961001307@c.us",
+2025-07-14 16:43:45.776 |     "pushName": "Sebastian Mafaldo"
+2025-07-14 16:43:45.776 |   },
+2025-07-14 16:43:45.776 |   "payload": {
+2025-07-14 16:43:45.776 |     "id": "false_51922726164@c.us_3F0E58573D78BAF09A3A",
+2025-07-14 16:43:45.776 |     "timestamp": 1752529425,
+2025-07-14 16:43:45.776 |     "from": "51922726164@c.us",
+2025-07-14 16:43:45.776 |     "fromMe": false,
+2025-07-14 16:43:45.776 |     "to": "51961001307@c.us",
+2025-07-14 16:43:45.776 |     "body": "al fin estar\u00e1 el piolino",
+2025-07-14 16:43:45.776 |     "hasMedia": false,
+2025-07-14 16:43:45.776 |     "ack": 1,
+2025-07-14 16:43:45.776 |     "ackName": "SERVER",
+2025-07-14 16:43:45.776 |     "vCards": [],
+2025-07-14 16:43:45.776 |     "_data": {
+2025-07-14 16:43:45.776 |       "id": {
+2025-07-14 16:43:45.776 |         "fromMe": false,
+2025-07-14 16:43:45.776 |         "remote": "51922726164@c.us",
+2025-07-14 16:43:45.776 |         "id": "3F0E58573D78BAF09A3A",
+2025-07-14 16:43:45.776 |         "_serialized": "false_51922726164@c.us_3F0E58573D78BAF09A3A"
+2025-07-14 16:43:45.776 |       },
+2025-07-14 16:43:45.776 |       "viewed": false,
+2025-07-14 16:43:45.776 |       "body": "al fin estar\u00e1 el piolino",
+2025-07-14 16:43:45.776 |       "type": "chat",
+2025-07-14 16:43:45.776 |       "t": 1752529425,
+2025-07-14 16:43:45.776 |       "notifyName": "Heidi Celeste",
+2025-07-14 16:43:45.776 |       "from": "51922726164@c.us",
+2025-07-14 16:43:45.776 |       "to": "51961001307@c.us",
+2025-07-14 16:43:45.776 |       "ack": 1,
+2025-07-14 16:43:45.776 |       "invis": false,
+2025-07-14 16:43:45.776 |       "isNewMsg": true,
+2025-07-14 16:43:45.776 |       "star": false,
+2025-07-14 16:43:45.776 |       "kicNotified": false,
+2025-07-14 16:43:45.776 |       "recvFresh": true,
+2025-07-14 16:43:45.776 |       "isFromTemplate": false,
+2025-07-14 16:43:45.776 |       "thumbnail": "",
+2025-07-14 16:43:45.776 |       "pollInvalidated": false,
+2025-07-14 16:43:45.776 |       "isSentCagPollCreation": false,
+2025-07-14 16:43:45.776 |       "latestEditMsgKey": null,
+2025-07-14 16:43:45.776 |       "latestEditSenderTimestampMs": null,
+2025-07-14 16:43:45.776 |       "mentionedJidList": [],
+2025-07-14 16:43:45.776 |       "groupMentions": [],
+2025-07-14 16:43:45.776 |       "isEventCanceled": false,
+2025-07-14 16:43:45.776 |       "eventInvalidated": false,
+2025-07-14 16:43:45.776 |       "isVcardOverMmsDocument": false,
+2025-07-14 16:43:45.776 |       "hasReaction": false,
+2025-07-14 16:43:45.776 |       "ephemeralDuration": 0,
+2025-07-14 16:43:45.776 |       "ephemeralSettingTimestamp": 0,
+2025-07-14 16:43:45.776 |       "disappearingModeInitiator": "chat",
+2025-07-14 16:43:45.776 |       "disappearingModeTrigger": "chat_settings",
+2025-07-14 16:43:45.776 |       "viewMode": "VISIBLE",
+2025-07-14 16:43:45.776 |       "productHeaderImageRejected": false,
+2025-07-14 16:43:45.776 |       "lastPlaybackProgress": 0,
+2025-07-14 16:43:45.776 |       "isDynamicReplyButtonsMsg": false,
+2025-07-14 16:43:45.776 |       "isCarouselCard": false,
+2025-07-14 16:43:45.776 |       "parentMsgId": null,
+2025-07-14 16:43:45.776 |       "callSilenceReason": null,
+2025-07-14 16:43:45.776 |       "isVideoCall": false,
+2025-07-14 16:43:45.776 |       "callDuration": null,
+2025-07-14 16:43:45.776 |       "callCreator": null,
+2025-07-14 16:43:45.776 |       "callParticipants": null,
+2025-07-14 16:43:45.776 |       "isCallLink": null,
+2025-07-14 16:43:45.776 |       "callLinkToken": null,
+2025-07-14 16:43:45.776 |       "isMdHistoryMsg": false,
+2025-07-14 16:43:45.776 |       "stickerSentTs": 0,
+2025-07-14 16:43:45.776 |       "isAvatar": false,
+2025-07-14 16:43:45.776 |       "lastUpdateFromServerTs": 0,
+2025-07-14 16:43:45.776 |       "invokedBotWid": null,
+2025-07-14 16:43:45.776 |       "bizBotType": null,
+2025-07-14 16:43:45.776 |       "botResponseTargetId": null,
+2025-07-14 16:43:45.776 |       "botPluginType": null,
+2025-07-14 16:43:45.776 |       "botPluginReferenceIndex": null,
+2025-07-14 16:43:45.776 |       "botPluginSearchProvider": null,
+2025-07-14 16:43:45.776 |       "botPluginSearchUrl": null,
+2025-07-14 16:43:45.776 |       "botPluginSearchQuery": null,
+2025-07-14 16:43:45.776 |       "botPluginMaybeParent": false,
+2025-07-14 16:43:45.776 |       "botReelPluginThumbnailCdnUrl": null,
+2025-07-14 16:43:45.776 |       "botMessageDisclaimerText": null,
+2025-07-14 16:43:45.776 |       "botMsgBodyType": null,
+2025-07-14 16:43:45.776 |       "reportingTokenInfo": {
+2025-07-14 16:43:45.776 |         "reportingTag": {
+2025-07-14 16:43:45.776 |           "0": 1,
+2025-07-14 16:43:45.776 |           "1": 8,
+2025-07-14 16:43:45.776 |           "2": 192,
+2025-07-14 16:43:45.776 |           "3": 120,
+2025-07-14 16:43:45.776 |           "4": 177,
+2025-07-14 16:43:45.776 |           "5": 12,
+2025-07-14 16:43:45.776 |           "6": 153,
+2025-07-14 16:43:45.776 |           "7": 215,
+2025-07-14 16:43:45.776 |           "8": 3,
+2025-07-14 16:43:45.776 |           "9": 28,
+2025-07-14 16:43:45.776 |           "10": 205,
+2025-07-14 16:43:45.776 |           "11": 213,
+2025-07-14 16:43:45.776 |           "12": 10,
+2025-07-14 16:43:45.776 |           "13": 143,
+2025-07-14 16:43:45.776 |           "14": 152,
+2025-07-14 16:43:45.776 |           "15": 207
+2025-07-14 16:43:45.776 |         }
+2025-07-14 16:43:45.776 |       },
+2025-07-14 16:43:45.776 |       "requiresDirectConnection": null,
+2025-07-14 16:43:45.776 |       "bizContentPlaceholderType": null,
+2025-07-14 16:43:45.776 |       "hostedBizEncStateMismatch": false,
+2025-07-14 16:43:45.776 |       "senderOrRecipientAccountTypeHosted": false,
+2025-07-14 16:43:45.776 |       "placeholderCreatedWhenAccountIsHosted": false,
+2025-07-14 16:43:45.776 |       "links": []
+2025-07-14 16:43:45.776 |     }
+2025-07-14 16:43:45.776 |   },
+2025-07-14 16:43:45.776 |   "engine": "WEBJS",
+2025-07-14 16:43:45.776 |   "environment": {
+2025-07-14 16:43:45.776 |     "version": "2025.2.1",
+2025-07-14 16:43:45.776 |     "engine": "WEBJS",
+2025-07-14 16:43:45.776 |     "tier": "CORE",
+2025-07-14 16:43:45.776 |     "browser": "/usr/bin/chromium"
+2025-07-14 16:43:45.776 |   }
+2025-07-14 16:43:45.776 | }
+2025-07-14 16:43:45.776 | 2025-07-14 21:43:45,776 - [INFO] - Webhook validado y encolado para procesamiento.
+2025-07-14 16:43:45.777 | INFO:     172.18.0.1:55794 - "POST /api/webhooks/waha/wa_instance_1_477bdd38 HTTP/1.1" 200 OK
+2025-07-14 16:43:45.777 | 2025-07-14 21:43:45,777 - [INFO] - --- [BG-TASK] Iniciando procesado para la instancia 'wa_instance_1_477bdd38' ---
+2025-07-14 16:43:45.777 | 2025-07-14 21:43:45,777 - [INFO] - Datos (ENTRANTE) -> Contacto: Heidi Celeste (51922726164), Mensaje: 'al fin estará el piolino'
+2025-07-14 16:43:45.818 | 2025-07-14 21:43:45,817 - [INFO] - GHL API Call (get_or_create_contact): Intentando crear/obtener contacto para 51922726164
+2025-07-14 16:43:46.336 | 2025-07-14 21:43:46,335 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/contacts/ "HTTP/1.1 400 Bad Request"
+2025-07-14 16:43:46.336 | 2025-07-14 21:43:46,336 - [INFO] - Contacto ya existente. ID recuperado del error: ZhDEfMqaL6Asv7hLZ8uc
+2025-07-14 16:43:46.337 | 2025-07-14 21:43:46,336 - [INFO] - Contacto en GHL listo. ID: ZhDEfMqaL6Asv7hLZ8uc. Procediendo a añadir el mensaje...
+2025-07-14 16:43:46.385 | 2025-07-14 21:43:46,384 - [INFO] - Buscando conversationId para el contacto: ZhDEfMqaL6Asv7hLZ8uc
+2025-07-14 16:43:47.153 | 2025-07-14 21:43:47,152 - [INFO] - HTTP Request: GET https://services.leadconnectorhq.com/conversations/search?contactId=ZhDEfMqaL6Asv7hLZ8uc "HTTP/1.1 200 OK"
+2025-07-14 16:43:47.178 | 2025-07-14 21:43:47,177 - [INFO] - ConversationId encontrado: qL3AslbEIdywrbsIvdP9
+2025-07-14 16:43:47.224 | 2025-07-14 21:43:47,223 - [INFO] - GHL API Call (add_message): Añadiendo mensaje con payload: {"type": "WhatsApp", "contactId": "ZhDEfMqaL6Asv7hLZ8uc", "conversationId": "qL3AslbEIdywrbsIvdP9", "message": "al fin estar\u00e1 el piolino", "direction": "inbound"}
+2025-07-14 16:43:48.610 | 2025-07-14 21:43:48,609 - [INFO] - HTTP Request: POST https://services.leadconnectorhq.com/conversations/messages "HTTP/1.1 201 Created"
+2025-07-14 16:43:48.611 | 2025-07-14 21:43:48,610 - [INFO] - GHL API Response: Mensaje para ZhDEfMqaL6Asv7hLZ8uc añadido exitosamente.
+2025-07-14 16:43:48.611 | 2025-07-14 21:43:48,611 - [INFO] - ? ¡ÉXITO TOTAL! Mensaje (ENTRANTE) del contacto ZhDEfMqaL6Asv7hLZ8uc procesado.
+2025-07-14 16:43:48.611 | 2025-07-14 21:43:48,611 - [INFO] - ==================== FIN DE TAREA PARA 'wa_instance_1_477bdd38' ====================

@@ -5,6 +5,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, Request
 from fastapi.responses import RedirectResponse
 from sqlalchemy.orm import Session
 from urllib.parse import urlencode
+import json
 
 from database.connection import get_db
 from models.instance import Instance as InstanceModel
@@ -12,15 +13,12 @@ from models.user import User
 from routers.auth import get_current_active_user
 from logger_config import logger
 
-# El prefijo base para todas las rutas de este archivo será /marketplace
 router = APIRouter(prefix="/marketplace", tags=["Marketplace OAuth"])
 
 GHL_CLIENT_ID = os.getenv("GHL_CLIENT_ID")
 GHL_CLIENT_SECRET = os.getenv("GHL_CLIENT_SECRET")
 GHL_BASE_URL = "https://marketplace.gohighlevel.com/oauth/chooselocation"
 GHL_TOKEN_URL = "https://services.leadconnectorhq.com/oauth/token"
-
-# Esta es la URL que debes poner en tu App de GHL
 REDIRECT_URI = "http://localhost:8000/api/marketplace/callback"
 
 @router.get("/connect")
@@ -32,9 +30,14 @@ async def connect_to_ghl(current_user: User = Depends(get_current_active_user), 
     if not instance:
         raise HTTPException(status_code=404, detail="No se encontró una instancia. Por favor, cree una primero.")
 
+    # Usamos los scopes corregidos y validados
     scopes = " ".join([
-        "contacts.readonly", "contacts.write",
-        "conversations.readonly", "conversations.write",
+        "contacts.readonly",
+        "contacts.write",
+        "conversations.readonly",
+        "conversations.write",
+        "conversations/message.readonly",
+        "conversations/message.write",
         "users.readonly"
     ])
     
@@ -55,10 +58,9 @@ async def connect_to_ghl(current_user: User = Depends(get_current_active_user), 
 @router.get("/callback")
 async def ghl_oauth_callback(code: str, state: str, request: Request, db: Session = Depends(get_db)):
     """
-    Paso 2: GHL redirige aquí después de la autorización.
-    Intercambiamos el código por tokens de acceso y los guardamos.
+    Paso 2: GHL redirige aquí. Intercambiamos el código por tokens y los guardamos.
     """
-    logger.info(f"Recibido callback de GHL con el código de autorización y el estado: {state}")
+    logger.info(f"Recibido callback de GHL con código de autorización y estado: {state}")
     
     try:
         user_id_str = state.split(':')[1]
@@ -84,18 +86,31 @@ async def ghl_oauth_callback(code: str, state: str, request: Request, db: Sessio
             token_response.raise_for_status()
             
             token_json = token_response.json()
-            logger.info(f"Tokens recibidos de GHL exitosamente: {token_json}")
+            logger.info("================= RESPUESTA DE GOHIGHLEVEL =================")
+            logger.info(f"Datos JSON recibidos de GHL: {json.dumps(token_json, indent=2)}")
+            logger.info("==========================================================")
             
+            # Guardamos todos los datos necesarios
             instance.ghl_access_token = token_json.get("access_token")
             instance.ghl_refresh_token = token_json.get("refresh_token")
             instance.ghl_location_id = token_json.get("locationId")
+            instance.ghl_user_id = token_json.get("userId")
             instance.is_connected = True
             
             db.commit()
-            logger.info(f"Tokens guardados para la instancia '{instance.instance_name}' y la ubicación '{instance.ghl_location_id}'.")
+            db.refresh(instance)
+            
+            logger.info("Datos guardados en la base de datos.")
+            logger.info(f"Verificación post-guardado -> Access Token: {'OK' if instance.ghl_access_token else 'FALTANTE'}")
+            logger.info(f"Verificación post-guardado -> Location ID: {instance.ghl_location_id}")
+            logger.info(f"Verificación post-guardado -> User ID: {instance.ghl_user_id}")
 
             return {"status": "success", "message": "GoHighLevel ha sido conectado exitosamente. Ya puedes cerrar esta ventana."}
 
         except httpx.HTTPStatusError as e:
             logger.error(f"Error al intercambiar el código por tokens: {e.response.text}")
             raise HTTPException(status_code=400, detail=f"Error al comunicarse con GHL: {e.response.text}")
+        except Exception as e:
+            # Captura cualquier otro error inesperado (como un JSON malformado)
+            logger.error(f"Excepción no controlada en el callback de GHL: {e}", exc_info=True)
+            raise HTTPException(status_code=500, detail="Ocurrió un error interno al procesar la respuesta de GHL.")

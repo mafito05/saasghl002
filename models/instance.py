@@ -17,7 +17,8 @@ class Instance(Base):
     ghl_access_token = Column(String, nullable=True)
     ghl_refresh_token = Column(String, nullable=True)
     ghl_location_id = Column(String, nullable=True, index=True) # Para saber a qué sub-cuenta pertenece
-    
+    ghl_user_id = Column(String)# <--- AÑADE ESTA LÍNEA
+
     webhook_url = Column(String, nullable=True) # Webhook para n8n, etc.
     is_connected = Column(Boolean, default=False)
 
